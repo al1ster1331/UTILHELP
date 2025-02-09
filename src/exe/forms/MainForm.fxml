@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1280" styleClass="">
+  <children>
+    <Panel borderColor="#c0c0c0" borderRadius="20" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="800" prefWidth="1280" style="-fx-background-color: linear-gradient(to bottom, #1a1a1a, #4d4d4d);" styleClass="" titleColor="#4d4d4d" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="25" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="20" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="672" prefWidth="1240" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="20" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel5" layoutX="24" layoutY="56" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="500" prefWidth="350" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children>
+                <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="250" id="image3" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="350">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </ImageViewEx>
+                <Data cursor="HAND" enabled="" id="data-image3" image=".data/img/Без имени-1.png" visible="1"/>
+              </children>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel5" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image" layoutX="1248" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image" image=".data/img/close.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="imageAlt" layoutX="1224" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-imageAlt" image=".data/img/roll up.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="576" layoutY="0" prefHeight="44" prefWidth="128" styleClass="label " text="UTILHELP" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Separator focusTraversable="false" id="separator" layoutX="576" layoutY="32" orientation="HORIZONTAL" prefHeight="8" prefWidth="120" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="" id="data-separator" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="80" layoutY="64" prefHeight="31" prefWidth="112" styleClass="label " text="Главная" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="235" layoutY="64" prefHeight="31" prefWidth="128" styleClass="label " text="Драйверы" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="HAND" enabled="1" id="data-label3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="400" layoutY="64" prefHeight="31" prefWidth="136" styleClass="label " text="Программы" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="HAND" enabled="1" id="data-label4" visible="1"/>
+        <Separator focusTraversable="false" id="separatorAlt" layoutX="80" layoutY="96" orientation="HORIZONTAL" prefHeight="3" prefWidth="107" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="" id="data-separatorAlt" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+        <ProgressIndicator focusTraversable="false" id="progressIndicator" layoutX="40" layoutY="67" prefHeight="24" prefWidth="24" progress="-1" styleClass="progress-indicator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
+        <Separator focusTraversable="false" id="separator3" layoutX="44" layoutY="414" orientation="HORIZONTAL" prefHeight="8" prefWidth="350" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="" id="data-separator3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="72" layoutY="424" prefHeight="31" prefWidth="296" styleClass="label " text="Добро пожаловать в UTILHELP" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" autoSizeType="VERTICAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="48" layoutY="448" prefHeight="208" prefWidth="336" style="-fx-fill: white;" styleClass="label " text="UTILHELP — это инновационное приложение, предназначенное для облегчения поиска необходимых программ и драйверов для компьютера. Оно объединяет всю самую полезную информацию в одном месте, предоставляя пользователям удобный доступ к обновлениям, важным событиям и необходимым ресурсам.&#10;&#10;Интерфейс приложения:&#10;«Главная страница»: Здесь собрана актуальная информация о программе, обновлениях и важных событиях.&#10;«Драйверы»: Все необходимые драйверы для компьютера собраны в этом разделе.*&#10;«Программы»: В этом разделе собраны отобранные программы, как для удобного использования системы, так и для мониторинга ресурсов.*&#10;*Рядом с каждой ячейкой есть знак вопроса, который позволяет узнать назначение и другую информацию продукта.&#10;&#10;Преимущества приложения UTILHELP: &#10;Удобство использования: UTILHELP предоставляет пользователям удобный доступ к необходимой информации о программах и драйверах.&#10;Актуальность данных: приложение регулярно обновляется, чтобы предоставлять пользователям самые актуальные драйвера и программы.&#10;Разнообразие ресурсов: UTILHELP объединяет различные программы и драйверы, что позволяет пользователям выбрать наиболее подходящие для своих нужд.&#10;&#10;UTILHELP — это незаменимый инструмент для всех, кто ищет удобные и актуальные программы и драйверы для своего компьютера." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+        <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="20" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel4" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0.5" prefHeight="800" prefWidth="1280" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="" id="data-panel4" visible=""/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image39" layoutX="1230" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image39" image=".data/img/github.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image40" layoutX="1200" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image40" image=".data/img/tg.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="1196" layoutY="786" prefHeight="12" prefWidth="72" styleClass="label " text="version 0.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="10"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label7" visible=""/>
+    <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="25" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel6" layoutX="240" layoutY="50" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="700" prefWidth="800" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image4" layoutX="768" layoutY="16" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image4" image=".data/img/close.png" visible=""/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel6" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="484" layoutY="56" prefHeight="31" prefWidth="312" styleClass="label " text="Добро пожаловать в UTILHELP 0.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" autoSizeType="VERTICAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="256" layoutY="80" prefHeight="664" prefWidth="768" styleClass="label " text="UTILHELP — это инновационное приложение, предназначенное для облегчения поиска необходимых программ и драйверов для компьютера. Оно объединяет всю самую полезную информацию в одном месте, предоставляя пользователям удобный доступ к обновлениям, важным событиям и необходимым ресурсам.&#10;&#10;Интерфейс приложения:&#10;«Главная страница»: Здесь собрана актуальная информация о программе, обновлениях и важных событиях.&#10;«Драйверы»: Все необходимые драйверы для компьютера собраны в этом разделе.*&#10;«Программы»: В этом разделе собраны отобранные программы, как для удобного использования системы, так и для мониторинга ресурсов.*&#10;*Рядом с каждой ячейкой есть знак вопроса, который позволяет узнать назначение и другую информацию продукта.&#10;&#10;Преимущества приложения UTILHELP: &#10;Удобство использования: UTILHELP предоставляет пользователям удобный доступ к необходимой информации о программах и драйверах.&#10;Актуальность данных: приложение регулярно обновляется, чтобы предоставлять пользователям самые актуальные драйвера и программы.&#10;Разнообразие ресурсов: UTILHELP объединяет различные программы и драйверы, что позволяет пользователям выбрать наиболее подходящие для своих нужд.&#10;&#10;UTILHELP — это незаменимый инструмент для всех, кто ищет удобные и актуальные программы и драйверы для своего компьютера." textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>

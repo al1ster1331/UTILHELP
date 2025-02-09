@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    <method name="doImageAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doImageClickLeft">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doLabel3ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <loadForm form="Drivers" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+<class name="Drivers">
+    <method name="doImageAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doImageClickLeft">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doImage20MouseEnter">
+      <elementShow object="label5" object-type="object"/>
+      <elementHide object="image19" object-type="object"/>
+    </method>
+  <method name="doImage20MouseExit">
+      <elementHide object="label5" object-type="object"/>
+      <elementShow object="image19" object-type="object"/>
+    </method>
+  <method name="doImage3ClickLeft">
+      <browse url="https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe" url-type="string"/>
+    </method>
+  <method name="doLabelAltClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+      <loadForm form="MainForm" form-type="form" savePosition="1" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+    
+    
+  <method name="doImage22MouseEnter">
+      <elementShow object="label6" object-type="object"/>
+      <elementHide object="image21" object-type="object"/>
+    </method>
+  <method name="doImage22MouseExit">
+      <elementHide object="label6" object-type="object"/>
+      <elementShow object="image21" object-type="object"/>
+    </method>
+  <method name="doImage4ClickLeft">
+      <browse url="https://download.microsoft.com/download/7/0/3/703455ee-a747-4cc8-bd3e-98a615c3aedb/dotNetFx35setup.exe" url-type="string"/>
+    </method>
+    
+    
+  <method name="doImage24MouseEnter">
+      <elementShow object="label7" object-type="object"/>
+      <elementHide object="image23" object-type="object"/>
+    </method>
+  <method name="doImage24MouseExit">
+      <elementHide object="label7" object-type="object"/>
+      <elementShow object="image23" object-type="object"/>
+    </method>
+  <method name="doImage5ClickLeft">
+      <browse url="https://aka.ms/vs/17/release/vc_redist.x64.exe" url-type="string"/>
+    </method>
+  
+    
+  <method name="doImage26MouseEnter">
+      <elementShow object="label8" object-type="object"/>
+      <elementHide object="image25" object-type="object"/>
+    </method>
+  <method name="doImage26MouseExit">
+      <elementHide object="label8" object-type="object"/>
+      <elementShow object="image25" object-type="object"/>
+    </method>
+  <method name="doImage6ClickLeft">
+      <browse url="https://dl.comss.org/download/Win7_Win8_Win81_Win10_R283.exe" url-type="string"/>
+    </method>
+    
+    
+  <method name="doImage28MouseEnter">
+      <elementShow object="label9" object-type="object"/>
+      <elementHide object="image27" object-type="object"/>
+    </method>
+  <method name="doImage28MouseExit">
+      <elementHide object="label9" object-type="object"/>
+      <elementShow object="image27" object-type="object"/>
+    </method>
+  <method name="doImage7ClickLeft">
+      <browse url="https://ru.download.nvidia.com/nvapp/client/11.0.1.163/NVIDIA_app_v11.0.1.163.exe" url-type="string"/>
+    </method>
+    
+    
+  <method name="doImage30MouseEnter">
+      <elementShow object="label10" object-type="object"/>
+      <elementHide object="image29" object-type="object"/>
+    </method>
+  <method name="doImage30MouseExit">
+      <elementHide object="label10" object-type="object"/>
+      <elementShow object="image29" object-type="object"/>
+    </method>
+  
+  <method name="doImage8ClickLeft">
+      <browse url="https://www.amd.com/en/support/download/drivers.html" url-type="string"/>
+    </method>
+  <method name="doImage9ClickLeft">
+      <browse url="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251408_0d8f12bc927a4e2c9f8568ca567db4ee" url-type="string"/>
+    </method>
+  
+    
+  <method name="doImage32MouseEnter">
+      <elementShow object="label11" object-type="object"/>
+      <elementHide object="image31" object-type="object"/>
+    </method>
+  <method name="doImage32MouseExit">
+      <elementHide object="label11" object-type="object"/>
+      <elementShow object="image31" object-type="object"/>
+    </method>
+  </class>
+<class name="Programms">
+    
+  
+  
+  <method name="doImageAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doImageClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doImage3ClickLeft">
+      <browse url="https://browser.yandex.ru/download?os=win&amp;bitness=64&amp;statpromo=true&amp;darktheme=0&amp;banerid=6301000000&amp;portal_testids=1112868%2F88%2C1114258%2F-1%2C1114347%2F-1%2C1124063%2F-1%2C1127618%2F-1&amp;signature=r1NphQ%2FexWtVxXgRIIxWlizzVrpD%2BAyVsz5DYhyDswf6WlR7eW%2BWAv01EslEGBsYP7m7y%2BAcfQ%2B5x%2FPwjx%2FW4g%3D%3D" url-type="string"/>
+    </method>
+    
+    <method name="doImage20MouseExit">
+      <elementHide object="label5" object-type="object"/>
+      <elementShow object="image19" object-type="object"/>
+    </method>
+  <method name="doImage20MouseEnter">
+      <elementShow object="label5" object-type="object"/>
+      <elementHide object="image19" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image3" object-type="object"/>
+    </method>
+    
+    
+  <method name="doImage22MouseEnter">
+      <elementShow object="label6" object-type="object"/>
+      <elementHide object="image21" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image4" object-type="object"/>
+    </method>
+  <method name="doImage22MouseExit">
+      <elementHide object="label6" object-type="object"/>
+      <elementShow object="image21" object-type="object"/>
+    </method>
+  <method name="doImage5ClickLeft">
+      <browse url="https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_5.0.2_x64_setup.exe" url-type="string"/>
+    </method>
+  <method name="doImage4ClickLeft">
+      <browse url="https://www.7-zip.org/" url-type="string"/>
+    </method>
+    
+    
+  
+  <method name="doImage24MouseExit">
+      <elementHide object="label7" object-type="object"/>
+      <elementShow object="image23" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doImage24MouseEnter">
+      <elementShow object="label7" object-type="object"/>
+      <elementHide object="image23" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image5" object-type="object"/>
+    </method>
+  <method name="doImage6ClickLeft">
+      <browse url="https://download.aida64.com/aida64extreme740.exe" url-type="string"/>
+    </method>
+    
+    
+  <method name="doImage26MouseEnter">
+      <elementShow object="label8" object-type="object"/>
+      <elementHide object="image25" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image6" object-type="object"/>
+    </method>
+  <method name="doImage26MouseExit">
+      <elementHide object="label8" object-type="object"/>
+      <elementShow object="image25" object-type="object"/>
+    </method>
+  <method name="doImage7ClickLeft">
+      <browse url="https://github.com/pbatard/rufus/releases/download/v4.6/rufus-4.6.exe" url-type="string"/>
+    </method>
+    
+    
+  
+  
+  <method name="doImage28MouseEnter">
+      <elementShow object="label9" object-type="object"/>
+      <elementHide object="image27" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image7" object-type="object"/>
+    </method>
+  <method name="doImage28MouseExit">
+      <elementHide object="label9" object-type="object"/>
+      <elementShow object="image27" object-type="object"/>
+    </method>
+    
+    
+  <method name="doImage30MouseEnter">
+      <elementShow object="label10" object-type="object"/>
+      <elementHide object="image29" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image8" object-type="object"/>
+    </method>
+  <method name="doImage30MouseExit">
+      <elementHide object="label10" object-type="object"/>
+      <elementShow object="image29" object-type="object"/>
+    </method>
+  <method name="doImage8ClickLeft">
+      <browse url="https://sourceforge.net/projects/crystaldiskinfo/files/9.5.0/CrystalDiskInfo9_5_0.exe/download" url-type="string"/>
+    </method>
+  
+    
+  <method name="doImage32MouseEnter">
+      <elementShow object="label12" object-type="object"/>
+      <elementHide object="image31" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image9" object-type="object"/>
+    </method>
+  <method name="doImage32MouseExit">
+      <elementHide object="label12" object-type="object"/>
+      <elementShow object="image31" object-type="object"/>
+    </method>
+  <method name="doImage9ClickLeft">
+      <browse url="https://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip?__token__=exp=1733249338~acl=/*~hmac=6d0a72c644d70b2846062188f2c2a031d7a08cc69a46f9aad06d10f2024d7a8f" url-type="string"/>
+    </method>
+  <method name="doImage10ClickLeft">
+      <browse url="https://download.cpuid.com/cpu-z/cpu-z_2.12-en.exe" url-type="string"/>
+    </method>
+    
+    
+  <method name="doImage34MouseEnter">
+      <elementShow object="label13" object-type="object"/>
+      <elementHide object="image33" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image10" object-type="object"/>
+    </method>
+  <method name="doImage34MouseExit">
+      <elementHide object="label13" object-type="object"/>
+      <elementShow object="image33" object-type="object"/>
+    </method>
+    
+    
+  
+  
+  <method name="doImage36MouseEnter">
+      <elementShow object="label14" object-type="object"/>
+      <elementHide object="image35" object-type="object"/>
+    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image11" object-type="object"/>
+    </method>
+  <method name="doImage36MouseExit">
+      <elementHide object="label14" object-type="object"/>
+      <elementShow object="image35" object-type="object"/>
+    <behaviourDisable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image11" object-type="object"/>
+    </method>
+  
+    
+  
+  
+  
+  <method name="doImage38MouseEnter">
+      <elementShow object="label16" object-type="object"/>
+      <elementHide object="image37" object-type="object"/>
+      <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image12" object-type="object"/>
+    </method>
+  <method name="doImage38MouseExit">
+      <elementHide object="label16" object-type="object"/>
+      <elementShow object="image37" object-type="object"/>
+      <behaviourDisable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image12" object-type="object"/>
+    </method>
+  
+  
+  
+  <method name="doLabel3ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="Drivers" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Programms" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  
+  <method name="doLabelAltClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="MainForm" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Programms" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doImage12ClickLeft">
+      <browse url="https://www.google.com/intl/ru/chrome/" url-type="string"/>
+    </method>
+  <method name="doImage40ClickLeft">
+      <browse url="https://t.me/UTILHELP13" url-type="string"/>
+    </method>
+  <method name="doImage39ClickLeft">
+      <browse url="https://github.com/al1ster1331/UTILHELP" url-type="string"/>
+    </method>
+  </class>
+</root>

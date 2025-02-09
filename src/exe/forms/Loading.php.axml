@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Loading">
+    
+  
+  
+  
+  
+  <method name="doProgressBar4Construct">
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <elementShow object="progressBarAlt" object-type="object"/>
+      <elementHide object="progressBar" object-type="object"/>
+      <sleep sync="" sync-type="" value="750" value-type="integer"/>
+      <elementShow object="progressBar3" object-type="object"/>
+      <elementHide object="progressBarAlt" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <elementHide object="progressBar3" object-type="object"/>
+      <elementShow object="progressBar4" object-type="object"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <loadForm form="MainForm" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+</root>
