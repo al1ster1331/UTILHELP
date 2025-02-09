@@ -1,9 +1,55 @@
 <h1 align="center">
-  
-
-UTILHELP
+  UTILHELP
 
 </h1>
 
-### UTILHELP is an innovative application designed to make it easier to find the necessary programs and drivers for your computer. 
-It combines all the most useful information in one place, providing users with convenient access to updates, important events and necessary resources.
+![Static badge](https://img.shields.io/badge/UTILHELP-red?style=flat)
+![Language](https://img.shields.io/badge/PHP-100%25-green?style=flat)
+![License](https://img.shields.io/badge/License-GPL--3.0-orange)
+![Logo](https://i.imgur.com/dXKbHMK.png)
+### UTILHELP - is an indispensable tool for anyone looking for convenient and up-to-date programs and drivers for their computer.
+## Руководство и сама программа доступна на данный момент только на русском языке The manual and the program itself are currently available in Russian only
+
+UTILHELP — это инновационное приложение, предназначенное для облегчения поиска необходимых программ и драйверов для компьютера. Оно объединяет всю самую полезную информацию в одном месте, предоставляя пользователям удобный доступ к обновлениям, важным событиям и необходимым ресурсам.
+
+#
+Интерфейс приложения:
+
+![Interface](https://i.imgur.com/rQWZ2fF.png)
+
+«Главная страница»: Здесь собрана актуальная информация о программе, обновлениях и важных событиях.
+
+«Драйверы»: Все необходимые драйверы для компьютера собраны в этом разделе.*
+
+«Программы»: В этом разделе собраны отобранные программы, как для удобного использования системы, так и для мониторинга ресурсов.*
+
+*Рядом с каждой ячейкой есть знак вопроса, который позволяет узнать назначение и другую информацию продукта.
+
+#
+
+![Programma](https://i.imgur.com/QGDVZsq.png)
+
+Преимущества приложения UTILHELP: 
+
+Удобство использования: UTILHELP предоставляет пользователям удобный доступ к необходимой информации о программах и драйверах.
+
+Актуальность данных: приложение регулярно обновляется, чтобы предоставлять пользователям самые актуальные драйвера и программы.
+
+Разнообразие ресурсов: UTILHELP объединяет различные программы и драйверы, что позволяет пользователям выбрать наиболее подходящие для своих нужд.
+
+#
+
+Практически все источники на драйвера и программы ведут на оригинальные сайты производителей, а некоторые ведут на сайты, с которых удобнее и быстрее скачать. Каждый файл был проверен на VirusTotal, для вашей же уверенности можете и сами их проверить.
+
+<h1 align="center">
+  Установка
+
+</h1>
+
+![Install](https://i.imgur.com/XCWwWUt.png)
+
+В разделе релизов вы найдете установочный файл программы в формате.exe. Этот файл можно использовать для установки на все версии операционной системы Windows. 
+
+Процесс установки состоит из нескольких этапов. Следуйте инструкциям на экране, и после завершения установки на вашем рабочем столе появится ярлык для запуска программы.
+
+![the label](https://i.imgur.com/euukG2J.png)
