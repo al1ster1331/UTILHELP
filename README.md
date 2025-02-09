@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/License-GPL--3.0-orange)
 ![Logo](https://i.imgur.com/dXKbHMK.png)
 ### UTILHELP - is an indispensable tool for anyone looking for convenient and up-to-date programs and drivers for their computer.
-## Руководство и сама программа доступна на данный момент только на русском языке The manual and the program itself are currently available in Russian only
+## Руководство и сама программа доступна на данный момент только на русском языке.       The manual and the program itself are currently available in Russian only
 
 UTILHELP — это инновационное приложение, предназначенное для облегчения поиска необходимых программ и драйверов для компьютера. Оно объединяет всю самую полезную информацию в одном месте, предоставляя пользователям удобный доступ к обновлениям, важным событиям и необходимым ресурсам.
 
