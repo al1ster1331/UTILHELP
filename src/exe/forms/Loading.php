@@ -1,7 +1,9 @@
 <?php
 namespace exe\forms;
 
+use bundle\updater\UpdateMe;
 use std, gui, framework, exe;
+
 
 
 class Loading extends AbstractForm

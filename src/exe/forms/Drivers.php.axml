@@ -44,106 +44,43 @@
   
   
   
-  <method name="doImage20MouseEnter">
-      <elementShow object="label5" object-type="object"/>
-      <elementHide object="image19" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image3" object-type="object"/>
-    </method>
-  <method name="doImage20MouseExit">
-      <elementHide object="label5" object-type="object"/>
-      <elementShow object="image19" object-type="object"/>
-    </method>
-  <method name="doImage3ClickLeft">
-      <browse url="https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe" url-type="string"/>
-    </method>
   
-    
-    
-  <method name="doImage22MouseEnter">
-      <elementShow object="label6" object-type="object"/>
-      <elementHide object="image21" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image4" object-type="object"/>
-    </method>
-  <method name="doImage22MouseExit">
-      <elementHide object="label6" object-type="object"/>
-      <elementShow object="image21" object-type="object"/>
-    </method>
-  <method name="doImage4ClickLeft">
-      <browse url="https://download.microsoft.com/download/7/0/3/703455ee-a747-4cc8-bd3e-98a615c3aedb/dotNetFx35setup.exe" url-type="string"/>
-    </method>
-    
-    
-  <method name="doImage24MouseEnter">
-      <elementShow object="label7" object-type="object"/>
-      <elementHide object="image23" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image5" object-type="object"/>
-    </method>
-  <method name="doImage24MouseExit">
-      <elementHide object="label7" object-type="object"/>
-      <elementShow object="image23" object-type="object"/>
-    </method>
+  
   
   
     
-  <method name="doImage26MouseEnter">
-      <elementShow object="label8" object-type="object"/>
-      <elementHide object="image25" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image6" object-type="object"/>
-    </method>
-  <method name="doImage26MouseExit">
-      <elementHide object="label8" object-type="object"/>
-      <elementShow object="image25" object-type="object"/>
-    </method>
-  <method name="doImage6ClickLeft">
-      <browse url="https://dl.comss.org/download/Win7_Win8_Win81_Win10_R283.exe" url-type="string"/>
-    </method>
     
-    
-  <method name="doImage28MouseEnter">
-      <elementShow object="label9" object-type="object"/>
-      <elementHide object="image27" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image7" object-type="object"/>
-    </method>
-  <method name="doImage28MouseExit">
-      <elementHide object="label9" object-type="object"/>
-      <elementShow object="image27" object-type="object"/>
-    </method>
-  <method name="doImage7ClickLeft">
-      <browse url="https://ru.download.nvidia.com/nvapp/client/11.0.1.163/NVIDIA_app_v11.0.1.163.exe" url-type="string"/>
-    </method>
-    
-    
-  <method name="doImage30MouseEnter">
-      <elementShow object="label10" object-type="object"/>
-      <elementHide object="image29" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image8" object-type="object"/>
-    </method>
-  <method name="doImage30MouseExit">
-      <elementHide object="label10" object-type="object"/>
-      <elementShow object="image29" object-type="object"/>
-    </method>
   
-  <method name="doImage8ClickLeft">
-      <browse url="https://www.amd.com/en/support/download/drivers.html" url-type="string"/>
-    </method>
-  <method name="doImage9ClickLeft">
-      <browse url="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251408_0d8f12bc927a4e2c9f8568ca567db4ee" url-type="string"/>
-    </method>
+  
   
     
-  <method name="doImage32MouseEnter">
-      <elementShow object="label11" object-type="object"/>
-      <elementHide object="image31" object-type="object"/>
-    <behaviourEnable behaviour="behaviour\custom\InnerShadowEffectBehaviour" behaviour-type="string" object="image9" object-type="object"/>
-    </method>
-  <method name="doImage32MouseExit">
-      <elementHide object="label11" object-type="object"/>
-      <elementShow object="image31" object-type="object"/>
-    </method>
+    
   
-  <method name="doImage5ClickLeft">
-      <browse url="https://github.com/abbodi1406/vcredist/releases" url-type="string"/>
-    </method>
+  
+  
+  
+    
+  
+  
+  
+    
+    
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
   <method name="doLabel4ClickLeft">
       <elementShow object="progressIndicator" object-type="object"/>
       <sleep sync="" sync-type="" value="500" value-type="integer"/>
@@ -170,6 +107,196 @@
     </method>
   <method name="doImage40ClickLeft">
       <browse url="https://t.me/UTILHELP13" url-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPanel8MouseExit">
+      <elementToggle object="label8" object-type="object"/>
+      <elementToggle object="panel21" object-type="object"/>
+    </method>
+  <method name="doPanel7MouseExit">
+      <elementToggle object="label7" object-type="object"/>
+      <elementToggle object="panel20" object-type="object"/>
+    </method>
+  <method name="doPanel6MouseExit">
+      <elementToggle object="label6" object-type="object"/>
+      <elementToggle object="panel19" object-type="object"/>
+    </method>
+  <method name="doPanel4MouseExit">
+      <elementToggle object="label5" object-type="object"/>
+      <elementToggle object="panel18" object-type="object"/>
+    </method>
+  
+  
+  <method name="doPanel9MouseExit">
+      <elementToggle object="panel22" object-type="object"/>
+    <elementToggle object="label9" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doPanel3MouseExit">
+      <elementToggle object="panel23" object-type="object"/>
+    <elementToggle object="label10" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPanel4ClickLeft">
+      <browse url="https://www.amd.com/en/support/download/drivers.html" url-type="string"/>
+    </method>
+  <method name="doPanel6ClickLeft">
+      <browse url="https://www.nvidia.com/en-us/drivers/" url-type="string"/>
+    </method>
+  <method name="doPanel7ClickLeft">
+      <browse url="https://github.com/abbodi1406/vcredist/releases" url-type="string"/>
+    </method>
+  <method name="doPanel8ClickLeft">
+      <browse url="https://download.microsoft.com/download/7/0/3/703455ee-a747-4cc8-bd3e-98a615c3aedb/dotNetFx35setup.exe" url-type="string"/>
+    </method>
+  <method name="doPanel9ClickLeft">
+      <browse url="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251656_7ed26d28139143f38c58992680c214a5" url-type="string"/>
+    </method>
+  <method name="doPanel3ClickLeft">
+      <browse url="https://www.realtek.com/Download/List?cate_id=593&amp;menu_id=298" url-type="string"/>
+    </method>
+  <method name="doPanel4MouseEnter">
+      <elementSetX object="label5" object-type="object" relative="" relative-type="" value="288" value-type="integer"/>
+      <elementSetY object="label5" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel18" object-type="object" relative="" relative-type="" value="280" value-type="integer"/>
+      <elementSetY object="panel18" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="panel18" object-type="object"/>
+      <elementToggle object="label5" object-type="object"/>
+    </method>
+  
+  <method name="doPanel6MouseEnter">
+      <elementSetY object="label6" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label6" object-type="object" relative="" relative-type="" value="536" value-type="integer"/>
+      <elementSetY object="panel19" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementSetX object="panel19" object-type="object" relative="" relative-type="" value="528" value-type="integer"/>
+      <elementToggle object="panel19" object-type="object"/>
+      <elementToggle object="label6" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPanel7MouseEnter">
+      <elementSetY object="label7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label7" object-type="object" relative="" relative-type="" value="784" value-type="integer"/>
+      <elementSetY object="panel20" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementSetX object="panel20" object-type="object" relative="" relative-type="" value="776" value-type="integer"/>
+      <elementToggle object="panel20" object-type="object"/>
+      <elementToggle object="label7" object-type="object"/>
+    </method>
+  
+  <method name="doPanel8MouseEnter">
+      <elementSetX object="label8" object-type="object" relative="" relative-type="" value="465" value-type="integer"/>
+      <elementSetY object="label8" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel21" object-type="object" relative="" relative-type="" value="456" value-type="integer"/>
+      <elementSetY object="panel21" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="label8" object-type="object"/>
+      <elementToggle object="panel21" object-type="object"/>
+    </method>
+  
+  <method name="doPanel9MouseEnter">
+      <elementSetX object="label9" object-type="object" relative="" relative-type="" value="708" value-type="integer"/>
+      <elementSetY object="label9" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel22" object-type="object" relative="" relative-type="" value="704" value-type="integer"/>
+      <elementSetY object="panel22" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="panel22" object-type="object"/>
+      <elementToggle object="label9" object-type="object"/>
+    </method>
+  
+  
+  <method name="doPanel3MouseEnter">
+      <elementSetX object="label10" object-type="object" relative="" relative-type="" value="290" value-type="integer"/>
+      <elementSetY object="label10" object-type="object" relative="" relative-type="" value="351" value-type="integer"/>
+      <elementSetX object="panel23" object-type="object" relative="" relative-type="" value="280" value-type="integer"/>
+      <elementSetY object="panel23" object-type="object" relative="" relative-type="" value="344" value-type="integer"/>
+      <elementToggle object="panel23" object-type="object"/>
+      <elementToggle object="label10" object-type="object"/>
     </method>
   </class>
 </root>

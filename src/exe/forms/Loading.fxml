@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144" prefWidth="288" styleClass="">
   <children>
-    <Panel borderColor="#ffffff" borderRadius="20" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="288" style="-fx-background-color: linear-gradient(to bottom, #1a1a1a, #4d4d4d);" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#1a1a1a" borderColor="#ffffff" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="288" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
         <ProgressBar focusTraversable="false" id="progressBar" layoutX="8" layoutY="80" prefHeight="18" prefWidth="272" progress="0" styleClass="progress-bar "/>
         <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible="1"/>
@@ -11,7 +11,7 @@
           </font>
         </LabelEx>
         <Data cursor="WAIT" enabled="1" id="data-label" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image" layoutX="88" layoutY="16" mosaic="false" mosaicGap="0" opacity="0.048780487804878" proportional="false" stretch="true" styleClass="" textFill="#000000" width="112">
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image" layoutX="88" layoutY="16" mosaic="false" mosaicGap="0" opacity="0.1219512195122" proportional="false" stretch="true" styleClass="" textFill="#000000" width="112">
           <font>
             <Font name="System Regular" size="12"/>
           </font>

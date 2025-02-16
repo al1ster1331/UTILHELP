@@ -1,106 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1280" styleClass="">
   <children>
-    <Panel borderColor="#c0c0c0" borderRadius="20" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="800" prefWidth="1280" style="-fx-background-color: linear-gradient(to bottom, #1a1a1a, #4d4d4d);" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#1a1a1a" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="1376" prefWidth="1512" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="25" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="20" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="672" prefWidth="1240" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="10" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="15" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="666" prefWidth="1250" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
           <children>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image3" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel4" layoutX="16" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image3" image=".data/img/Без имени-14.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image4" layoutX="310" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel4" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel5" layoutX="16" layoutY="448" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image4" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image5" layoutX="620" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel5" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel6" layoutX="264" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image5" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image6" layoutX="930" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel6" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel7" layoutX="512" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image6" image=".data/img/Без имени-4.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image7" layoutX="0" layoutY="168" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel7" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel8" layoutX="760" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image7" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image8" layoutX="310" layoutY="168" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel8" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel9" layoutX="1008" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image8" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image9" layoutX="620" layoutY="168" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel9" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel10" layoutX="264" layoutY="232" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="HAND" enabled="1" id="data-image9" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image10" layoutX="930" layoutY="168" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel10" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel11" layoutX="512" layoutY="232" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image10" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image11" layoutX="0" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel11" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel12" layoutX="760" layoutY="232" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image11" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image12" layoutX="310" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel12" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel13" layoutX="1008" layoutY="232" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image12" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image13" layoutX="620" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel13" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel14" layoutX="264" layoutY="448" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image13" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image14" layoutX="930" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel14" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel15" layoutX="512" layoutY="448" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image14" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" flipY="true" focusTraversable="false" height="168" id="image15" layoutX="0" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel15" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel16" layoutX="760" layoutY="448" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image15" image=".data/img/Без имени-14.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image16" layoutX="310" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel16" visible="1"/>
+            <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel17" layoutX="1008" layoutY="448" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
                 <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image16" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="168" id="image17" layoutX="620" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
-                <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image17" image=".data/img/Без имени-22.png" visible="1"/>
-            <ImageViewEx autoSize="false" centered="false" flipY="true" focusTraversable="false" height="168" id="image18" layoutX="930" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="310">
-              <font>
-                <Font name="System Regular" size="12"/>
-              </font>
-            </ImageViewEx>
-            <Data cursor="DEFAULT" enabled="" id="data-image18" image=".data/img/Без имени-4.png" visible="1"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel17" visible="1"/>
           </children>
           <titleFont>
             <Font name="System Regular" size="12"/>
@@ -149,60 +151,6 @@
         <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
         <ProgressIndicator focusTraversable="false" id="progressIndicator" layoutX="40" layoutY="67" prefHeight="24" prefWidth="24" progress="-1" styleClass="progress-indicator "/>
         <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="image19" layoutX="40" layoutY="144" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="260">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image19" image=".data/img/directx.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image20" layoutX="296" layoutY="248" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="HAND" enabled="1" id="data-image20" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="23" layoutY="136" prefHeight="112" prefWidth="304" styleClass="label " text="DirectX нужен для того, чтобы программное &#10;обеспечение,  в первую очередь компьютерные игры, &#10;напрямую взаимодействовало с видео- и аудиооборудованием." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible=""/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image21" layoutX="416" layoutY="120" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image21" image=".data/img/netframe.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image23" layoutX="720" layoutY="120" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image23" image=".data/img/visual c++.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="image25" layoutX="976" layoutY="144" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="260">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image25" image=".data/img/realtek.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="image27" layoutX="40" layoutY="310" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="260">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image27" image=".data/img/nvidia.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="image29" layoutX="352" layoutY="312" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="260">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image29" image=".data/img/amd.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="image31" layoutX="664" layoutY="312" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="260">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image31" image=".data/img/java.png" visible="1"/>
         <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image40" layoutX="1200" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
           <font>
             <Font name="System Regular" size="12"/>
@@ -215,89 +163,132 @@
           </font>
         </ImageViewEx>
         <Data cursor="HAND" enabled="1" id="data-image39" image=".data/img/github.png" visible="1"/>
+        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="32" layoutY="344" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="225" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="HAND" enabled="1" id="data-panel3" visible="1"/>
+        <Data cursor="DEFAULT" enabled="" id="data-panel18" visible=""/>
+        <Data cursor="DEFAULT" enabled="" id="data-panel19" visible=""/>
+        <Data cursor="DEFAULT" enabled="" id="data-panel20" visible=""/>
+        <Data cursor="DEFAULT" enabled="" id="data-panel21" visible=""/>
+        <Data cursor="DEFAULT" enabled="" id="data-panel22" visible=""/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image3" layoutX="68" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image3" image=".data/img/AMD.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image4" layoutX="316" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image4" image=".data/img/NVIDIA.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image5" layoutX="567" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image5" image=".data/img/VISUAL C++.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image6" layoutX="814" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image6" image=".data/img/FRAMEWORK.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image7" layoutX="1058" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image7" image=".data/img/JAVA.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="150" id="image8" layoutX="68" layoutY="369" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="150">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image8" image=".data/img/REALTEK.png" visible="1"/>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel18" layoutX="0" layoutY="816" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel19" layoutX="304" layoutY="816" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel21" layoutX="912" layoutY="816" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel22" layoutX="1216" layoutY="816" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel20" layoutX="608" layoutY="816" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible=""/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="8" layoutY="824" prefHeight="248" prefWidth="280" styleClass="label " text="AMD драйвер — это программный продукт для настройки, управления и оптимизации производительности графических карт семейства AMD. Для установки драйверов на видеокарты AMD можно воспользоваться фирменным ПО AMD Software: Adrenalin Edition. Программа автоматически определит модель видеокарты и предложит установить подходящую версию софта для GPU." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="Ebrima" size="15"/>
+          </font>
+        </LabelEx>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="312" layoutY="824" prefHeight="248" prefWidth="280" styleClass="label " text="Драйвера Nvidia — это программное обеспечение, которое связывает видеокарту с системой. Грубо говоря, это мостик между железом и играми, видео и всем, что можно запускать на компьютере." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="Ebrima" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible=""/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="616" layoutY="824" prefHeight="248" prefWidth="280" styleClass="label " text="Это распространяемый пакет, который устанавливает компоненты среды выполнения библиотек Visual C++. Они необходимы для выполнения программ, разработанных с помощью среды программирования Visual Studio." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="Ebrima" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label7" visible=""/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="920" layoutY="824" prefHeight="248" prefWidth="280" styleClass="label " text=".NET Framework распространяется вместе с Windows и используется для создания настольных приложений Windows, чаще всего это масштабные корпоративные приложения." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="Ebrima" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label8" visible=""/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="1221" layoutY="824" prefHeight="248" prefWidth="288" styleClass="label " text="Драйвер для языка программирования Java может быть нужен для взаимодействия с сервером базы данных. Он реализует определённые интерфейсы JDBC API и даёт возможность открывать соединения и выполнять SQL-запросы. Также платформа Java может быть необходима для запуска некоторых игр и приложений, которые разрабатывались по этой технологии. Например, Minecraft и ему подобные игры." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="Ebrima" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label9" visible=""/>
+        <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel23" layoutX="8" layoutY="1112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="" id="data-panel23" visible=""/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="16" layoutY="1120" prefHeight="248" prefWidth="280" styleClass="label " text="Realtek High Definition Audio Driver. Набор системных драйверов для поддержки работоспособности звуковых карт на базе чипа от Realtek. Без установки этого драйвера звуковая карта не будет определяться системой и, как следствие, не будет функционировать." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+          <font>
+            <Font name="Ebrima" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label10" visible=""/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image22" layoutX="606" layoutY="248" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="HAND" enabled="1" id="data-image22" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="332" layoutY="144" prefHeight="104" prefWidth="304" styleClass="label " text=".NET Framework 3.5 нужен для обеспечения совместимости с приложениями, которые требуют эту версию .NET Framework для своей работы. Некоторые старые программы и игры могут использовать именно эту версию, поэтому её наличие может быть важным для корректной работы определённых приложений." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-      <font>
-        <Font name="System Regular" size="11"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible=""/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image24" layoutX="917" layoutY="248" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="HAND" enabled="1" id="data-image24" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="643" layoutY="144" prefHeight="104" prefWidth="304" styleClass="label " text="Microsoft Visual C++ Redistributable – это один из тех пакетов, без которых на вашем компьютере не запустится большинство игр. Он содержит библиотеки, которые позволяют запуститься программам, в разработке которых была использована среда Microsoft Visual C++, известная так же как MSVC." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-      <font>
-        <Font name="System Regular" size="11"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label7" visible=""/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image26" layoutX="1230" layoutY="248" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="HAND" enabled="1" id="data-image26" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="954" layoutY="144" prefHeight="96" prefWidth="304" styleClass="label " text="Realtek Audio Driver содержит дополнительное программное обеспечение для управления различными параметрами и функциями проигрывания и записи звука. Так же без установки данного драйвера звуковая карта не будет определяться системой и, как следствие, не будет функционировать." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-      <font>
-        <Font name="System Regular" size="11"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible=""/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image28" layoutX="296" layoutY="416" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="HAND" enabled="1" id="data-image28" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="23" layoutY="304" prefHeight="112" prefWidth="304" styleClass="label " text="Приложение NVIDIA App — важный инструмент для геймеров и авторов контента, работающих на ПК с видеокартой от NVIDIA. Своевременно обновляйте ПК с помощью новейших драйверов и технологий NVIDIA." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label9" visible=""/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image30" layoutX="606" layoutY="416" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="HAND" enabled="1" id="data-image30" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="332" layoutY="304" prefHeight="112" prefWidth="304" styleClass="label " text="AMD Adrenalin нужен для обеспечения наилучшей производительности в играх, потоковом видео и системах виртуальной реальности на видеокартах от AMD. " textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label10" visible=""/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="26" id="image32" layoutX="917" layoutY="416" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="26">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="HAND" enabled="1" id="data-image32" image=".data/img/question.png" tooltipText="DirectX нужен для того, чтобы программное обеспечение, в первую очередь компьютерные игры, напрямую взаимодействовало с видео- и аудиооборудованием." visible="1"/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="643" layoutY="296" prefHeight="120" prefWidth="304" styleClass="label " text="Java машина - интерпретатор JAVA-приложений, они Вам будут нужны для корректного отображения современных вебстраниц в браузере. Она позволит использовать активное содержимое страниц и запускать, программы, вроде этого - Cross FTP. Java позволяет играть в сетевые игры и не только." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label11" visible=""/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="1196" layoutY="786" prefHeight="12" prefWidth="72" styleClass="label " text="version 0.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
-      <font>
-        <Font name="Courier New" size="10"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
   </children>
 </AnchorPane>
