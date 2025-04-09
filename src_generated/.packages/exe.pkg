@@ -1,0 +1,9 @@
+[classes]
+exe\forms\Drivers
+exe\forms\Launchers
+exe\forms\Loading
+exe\forms\MainForm
+exe\forms\Programms
+exe\modules\AppModule
+exe\modules\Loader
+exe\modules\MainModule
