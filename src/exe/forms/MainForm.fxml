@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1280" styleClass="">
+  <children>
+    <Panel backgroundColor="#1a1a1a" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="800" prefWidth="1280" styleClass="" titleColor="#4d4d4d" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="10" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="15" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="666" prefWidth="1250" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <Panel borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel5" layoutX="112" layoutY="264" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="65" prefWidth="1020" style="-fx-background-color: linear-gradient(to bottom, #4d4d4d, #333333);" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel5" visible="1"/>
+            <Panel borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel6" layoutX="112" layoutY="400" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="65" prefWidth="1020" style="-fx-background-color: linear-gradient(to bottom, #4d4d4d, #333333);" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel6" visible="1"/>
+            <Panel borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel9" layoutX="112" layoutY="128" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="65" prefWidth="1020" style="-fx-background-color: linear-gradient(to bottom, #4d4d4d, #333333);" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+              <children>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label21" layoutX="106" layoutY="20" prefHeight="0" prefWidth="277" styleClass="label " text="Обновление UTILHELP 0.3" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Courier New" size="20"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="HAND" enabled="1" id="data-label21" visible="1"/>
+                <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image9" layoutX="8" layoutY="-3" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </ImageViewEx>
+                <Data cursor="DEFAULT" enabled="" id="data-image9" image=".data/img/Update 1.png" visible="1"/>
+              </children>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="HAND" enabled="1" id="data-panel9" visible="1"/>
+            <Separator focusTraversable="false" id="separator6" layoutX="240" layoutY="101" opacity="0.42682926829268" orientation="HORIZONTAL" prefHeight="2" prefWidth="896" styleClass="separator "/>
+            <Data cursor="DEFAULT" enabled="1" id="data-separator6" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label16" layoutX="112" layoutY="88" prefHeight="23" prefWidth="128" styleClass="label " text="19 Февраля" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="Courier New" size="20"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label16" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image" layoutX="1248" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image" image=".data/img/close.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="imageAlt" layoutX="1224" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-imageAlt" image=".data/img/roll up.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="576" layoutY="0" prefHeight="44" prefWidth="128" styleClass="label " text="UTILHELP" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Separator focusTraversable="false" id="separator" layoutX="576" layoutY="32" orientation="HORIZONTAL" prefHeight="8" prefWidth="120" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="" id="data-separator" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="80" layoutY="64" prefHeight="31" prefWidth="112" styleClass="label " text="Главная" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="235" layoutY="64" prefHeight="31" prefWidth="128" styleClass="label " text="Драйверы" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="HAND" enabled="1" id="data-label3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="400" layoutY="64" prefHeight="31" prefWidth="136" styleClass="label " text="Программы" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="25"/>
+          </font>
+        </LabelEx>
+        <Data cursor="HAND" enabled="1" id="data-label4" visible="1"/>
+        <Separator focusTraversable="false" id="separatorAlt" layoutX="80" layoutY="96" orientation="HORIZONTAL" prefHeight="3" prefWidth="107" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="" id="data-separatorAlt" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+        <ProgressIndicator focusTraversable="false" id="progressIndicator" layoutX="40" layoutY="67" prefHeight="24" prefWidth="24" progress="-1" styleClass="progress-indicator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image39" layoutX="1230" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image39" image=".data/img/github.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image40" layoutX="1200" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="HAND" enabled="1" id="data-image40" image=".data/img/tg.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="312" layoutY="136" prefHeight="47" prefWidth="656" styleClass="label " text="Добро пожаловать в UTILHELP" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="40"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <Separator focusTraversable="false" id="separator3" layoutX="256" layoutY="349" opacity="0.42682926829268" orientation="HORIZONTAL" prefHeight="2" prefWidth="896" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="128" layoutY="336" prefHeight="23" prefWidth="128" styleClass="label " text="16 Февраля" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image3" layoutX="136" layoutY="372" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="" id="data-image3" image=".data/img/Update 1.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Separator focusTraversable="false" id="separator4" layoutX="256" layoutY="485" opacity="0.42682926829268" orientation="HORIZONTAL" prefHeight="2" prefWidth="896" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator4" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="128" layoutY="472" prefHeight="23" prefWidth="128" styleClass="label " text="9 Февраля" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image4" layoutX="136" layoutY="512" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="" id="data-image4" image=".data/img/Update.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="232" layoutY="532" prefHeight="0" prefWidth="313" style="-fx-text-fill: white" styleClass="label " text="Выпуск версии UTILHELP 0.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-label9" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="232" layoutY="396" prefHeight="0" prefWidth="277" styleClass="label " text="Обновление UTILHELP 0.2" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-label7" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible=""/>
+    <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel4" layoutX="1288" layoutY="808" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0.30487804878049" prefHeight="800" prefWidth="1280" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label10" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel7" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label11" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label12" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator5" visible=""/>
+    <Data cursor="HAND" enabled="1" id="data-image5" image=".data/img/close.png" visible=""/>
+    <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="248" layoutY="864" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="1040" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <LabelEx alignment="TOP_CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="280" layoutY="864" prefHeight="536" prefWidth="992" styleClass="label " text="Добро пожаловать в UTILHELP 0.1&#10;&#10;UTILHELP — это инновационное приложение, предназначенное для облегчения поиска необходимых программ и драйверов для компьютера. Оно объединяет всю самую полезную информацию в одном месте, предоставляя пользователям удобный доступ к обновлениям, важным событиям и необходимым ресурсам.&#10;&#10;Интерфейс приложения:&#10;&#10;«Главная страница»: Здесь собрана актуальная информация о программе, обновлениях и важных событиях.&#10;«Драйверы»: Все необходимые драйверы для компьютера собраны в этом разделе.*&#10;«Программы»: В этом разделе собраны отобранные программы, как для удобного использования системы, так и для мониторинга ресурсов.*&#10;*Рядом с каждой ячейкой есть знак вопроса, который позволяет узнать назначение и другую информацию продукта.&#10;&#10;Преимущества приложения UTILHELP:&#10;&#10;Удобство использования: UTILHELP предоставляет пользователям удобный доступ к необходимой информации о программах и драйверах.&#10;Актуальность данных: приложение регулярно обновляется, чтобы предоставлять пользователям самые актуальные драйвера и программы.&#10;Разнообразие ресурсов: UTILHELP объединяет различные программы и драйверы, что позволяет пользователям выбрать наиболее подходящие для своих нужд.&#10;&#10;Желаю вам успешного использования моей программы! Буду рад выслушать ваши отзывы, замечания и предложения по улучшению и развитию этого инструмента." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="Ebrima" size="15"/>
+      </font>
+    </LabelEx>
+    <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel7" layoutX="248" layoutY="808" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="1040" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="256" layoutY="808" prefHeight="24" prefWidth="320" styleClass="label " text="Выпуск версии UTILHELP 0.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="20"/>
+      </font>
+    </LabelEx>
+    <Separator focusTraversable="false" id="separator5" layoutX="248" layoutY="856" orientation="HORIZONTAL" prefHeight="8" prefWidth="1040" styleClass="separator "/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="848" layoutY="816" prefHeight="16" prefWidth="192" styleClass="label " text="Опубликовано 9 февраля" textAlignment="LEFT" textFill="#cccccc" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="14"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image5" layoutX="1264" layoutY="816" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label13" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label14" visible=""/>
+    <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel8" layoutX="248" layoutY="1480" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="1040" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel8" visible=""/>
+    <LabelEx alignment="TOP_CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label15" layoutX="272" layoutY="1544" prefHeight="536" prefWidth="992" styleClass="label " text="[Изменения в программе]:&#10;&#10;● Программа больше не имеет инсталятора, а является Portable версией.&#10;● Убраны мерцания при переходе с страницы на страницу.&#10;● Добавлен файл «Update.jar», который позволяет обновлять программу до последней версии с разрешения пользователя. Этот файл автоматически отслеживает актуальную версию из репозитория GitHub, и если появляется новая версия, при запуске программы появляется окно с предложением обновить.&#10;&#10;[Дизайн]:&#10;&#10;● Обновлены значки Telegram и GitHub.&#10;● Изменён фон окна загрузки, а также убраны закруглённые углы.&#10;● Изменён цвет фона программы.&#10;● Обновлены иконки «закрыть» и «свернуть».&#10;● Убраны закруглённые края программы.&#10;● Переработан дизайн главной страницы и панели обновлений.&#10;● Обновлён дизайн страницы «Драйверы» — изменены плитки и дизайн обозначений драйверов. Значки вопросов были убраны, и теперь вся информация о драйвере появляется при наведении на него.&#10;● Также был переработан дизайн страницы «Программы» — изменены плитки и дизайн обозначения программ. Значки вопросов были убраны, и теперь вся информация о программе отображается при наведении на неё.&#10;" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="Ebrima" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label15" visible=""/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image6" layoutX="1264" layoutY="1496" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image6" image=".data/img/close.png" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label14" layoutX="264" layoutY="1496" prefHeight="24" prefWidth="280" styleClass="label " text="Обновление UTILHELP 0.2" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="20"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="560" layoutY="1496" prefHeight="16" prefWidth="200" styleClass="label " text="Опубликовано 16 февраля" textAlignment="LEFT" textFill="#cccccc" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel10" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label18" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label19" visible=""/>
+    <Data cursor="HAND" enabled="1" id="data-image8" image=".data/img/close.png" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label20" visible=""/>
+    <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel10" layoutX="248" layoutY="2096" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="1040" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label20" layoutX="272" layoutY="2192" prefHeight="536" prefWidth="992" styleClass="label " text="[Изменения в программе]:&#10;&#10;● Во вкладке «Программы» были добавленны две программы - Modern Tweaker и Victoria.&#10;● При наведении на слово UTILHELP сверху, будет показана текущая версия программы.&#10;● Исправлена ошибка при загрузке обновлений UTILHELP.&#10;" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="Ebrima" size="15"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label18" layoutX="272" layoutY="2112" prefHeight="24" prefWidth="280" styleClass="label " text="Обновление UTILHELP 0.3" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="20"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image8" layoutX="1248" layoutY="2112" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label19" layoutX="848" layoutY="2104" prefHeight="16" prefWidth="200" styleClass="label " text="Опубликовано 19 февраля" textAlignment="LEFT" textFill="#cccccc" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="14"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label17" layoutX="575" layoutY="64" prefHeight="31" prefWidth="121" styleClass="label " text="Лаунчеры" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="25"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-label17" visible="1"/>
+  </children>
+</AnchorPane>

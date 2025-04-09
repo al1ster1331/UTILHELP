@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    <method name="doImageAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doImageClickLeft">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doLabel3ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <loadForm form="Drivers" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+<class name="Drivers">
+    <method name="doImageAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doImageClickLeft">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  
+    
+    
+  
+  
+  
+  
+    
+  
+  
+  
+    
+    
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  <method name="doLabel4ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="Programms" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Drivers" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doLabelAltClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="MainForm" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Drivers" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doImage39ClickLeft">
+      <browse url="https://github.com/al1ster1331/UTILHELP" url-type="string"/>
+    </method>
+  <method name="doImage40ClickLeft">
+      <browse url="https://t.me/UTILHELP13" url-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPanel8MouseExit">
+      <elementToggle object="label8" object-type="object"/>
+      <elementToggle object="panel21" object-type="object"/>
+    </method>
+  <method name="doPanel7MouseExit">
+      <elementToggle object="label7" object-type="object"/>
+      <elementToggle object="panel20" object-type="object"/>
+    </method>
+  <method name="doPanel6MouseExit">
+      <elementToggle object="label6" object-type="object"/>
+      <elementToggle object="panel19" object-type="object"/>
+    </method>
+  <method name="doPanel4MouseExit">
+      <elementToggle object="label5" object-type="object"/>
+      <elementToggle object="panel18" object-type="object"/>
+    </method>
+  
+  
+  <method name="doPanel9MouseExit">
+      <elementToggle object="panel22" object-type="object"/>
+    <elementToggle object="label9" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doPanel3MouseExit">
+      <elementToggle object="panel23" object-type="object"/>
+    <elementToggle object="label10" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPanel4ClickLeft">
+      <browse url="https://www.amd.com/en/support/download/drivers.html" url-type="string"/>
+    </method>
+  <method name="doPanel6ClickLeft">
+      <browse url="https://www.nvidia.com/en-us/drivers/" url-type="string"/>
+    </method>
+  <method name="doPanel7ClickLeft">
+      <browse url="https://github.com/abbodi1406/vcredist/releases" url-type="string"/>
+    </method>
+  <method name="doPanel8ClickLeft">
+      <browse url="https://download.microsoft.com/download/7/0/3/703455ee-a747-4cc8-bd3e-98a615c3aedb/dotNetFx35setup.exe" url-type="string"/>
+    </method>
+  <method name="doPanel9ClickLeft">
+      <browse url="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251656_7ed26d28139143f38c58992680c214a5" url-type="string"/>
+    </method>
+  <method name="doPanel3ClickLeft">
+      <browse url="https://www.realtek.com/Download/List?cate_id=593&amp;menu_id=298" url-type="string"/>
+    </method>
+  <method name="doPanel4MouseEnter">
+      <elementSetX object="label5" object-type="object" relative="" relative-type="" value="288" value-type="integer"/>
+      <elementSetY object="label5" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel18" object-type="object" relative="" relative-type="" value="280" value-type="integer"/>
+      <elementSetY object="panel18" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="panel18" object-type="object"/>
+      <elementToggle object="label5" object-type="object"/>
+    </method>
+  
+  <method name="doPanel6MouseEnter">
+      <elementSetY object="label6" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label6" object-type="object" relative="" relative-type="" value="536" value-type="integer"/>
+      <elementSetY object="panel19" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementSetX object="panel19" object-type="object" relative="" relative-type="" value="528" value-type="integer"/>
+      <elementToggle object="panel19" object-type="object"/>
+      <elementToggle object="label6" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doPanel7MouseEnter">
+      <elementSetY object="label7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label7" object-type="object" relative="" relative-type="" value="784" value-type="integer"/>
+      <elementSetY object="panel20" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementSetX object="panel20" object-type="object" relative="" relative-type="" value="776" value-type="integer"/>
+      <elementToggle object="panel20" object-type="object"/>
+      <elementToggle object="label7" object-type="object"/>
+    </method>
+  
+  <method name="doPanel8MouseEnter">
+      <elementSetX object="label8" object-type="object" relative="" relative-type="" value="465" value-type="integer"/>
+      <elementSetY object="label8" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel21" object-type="object" relative="" relative-type="" value="456" value-type="integer"/>
+      <elementSetY object="panel21" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="label8" object-type="object"/>
+      <elementToggle object="panel21" object-type="object"/>
+    </method>
+  
+  <method name="doPanel9MouseEnter">
+      <elementSetX object="label9" object-type="object" relative="" relative-type="" value="708" value-type="integer"/>
+      <elementSetY object="label9" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel22" object-type="object" relative="" relative-type="" value="704" value-type="integer"/>
+      <elementSetY object="panel22" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="panel22" object-type="object"/>
+      <elementToggle object="label9" object-type="object"/>
+    </method>
+  
+  
+  <method name="doPanel3MouseEnter">
+      <elementSetX object="label10" object-type="object" relative="" relative-type="" value="290" value-type="integer"/>
+      <elementSetY object="label10" object-type="object" relative="" relative-type="" value="351" value-type="integer"/>
+      <elementSetX object="panel23" object-type="object" relative="" relative-type="" value="280" value-type="integer"/>
+      <elementSetY object="panel23" object-type="object" relative="" relative-type="" value="344" value-type="integer"/>
+      <elementToggle object="panel23" object-type="object"/>
+      <elementToggle object="label10" object-type="object"/>
+    </method>
+  
+  <method name="doLabelMouseEnter">
+      <toast value="Версия программы 0.3" value-type="string"/>
+    </method>
+  </class>
+<class name="Launchers">
+    <method name="doImageClickLeft">
+      <applicationShutdown/>
+    </method>
+  <method name="doImageAltClickLeft">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doImage40ClickLeft">
+      <browse url="https://t.me/UTILHELP13" url-type="string"/>
+    </method>
+  <method name="doImage39ClickLeft">
+      <browse url="https://github.com/al1ster1331/UTILHELP" url-type="string"/>
+    </method>
+  <method name="doLabel4ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="Programms" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Launchers" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doLabel3ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="Drivers" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Launchers" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doLabelAltClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="MainForm" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="Launchers" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  <method name="doLabelMouseEnter">
+      <toast value="Версия программы 0.4" value-type="string"/>
+    </method>
+  <method name="doPanel4MouseEnter">
+      <elementSetX object="label5" object-type="object" relative="" relative-type="" value="288" value-type="integer"/>
+      <elementSetY object="label5" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel18" object-type="object" relative="" relative-type="" value="280" value-type="integer"/>
+      <elementSetY object="panel18" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="panel18" object-type="object"/>
+      <elementToggle object="label5" object-type="object"/>
+    </method>
+  <method name="doPanel4MouseExit">
+      <elementToggle object="label5" object-type="object"/>
+      <elementToggle object="panel18" object-type="object"/>
+    </method>
+  <method name="doPanel6MouseEnter">
+      <elementSetY object="label6" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label6" object-type="object" relative="" relative-type="" value="536" value-type="integer"/>
+      <elementSetY object="panel19" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementSetX object="panel19" object-type="object" relative="" relative-type="" value="528" value-type="integer"/>
+      <elementToggle object="panel19" object-type="object"/>
+      <elementToggle object="label6" object-type="object"/>
+    </method>
+  <method name="doPanel7MouseEnter">
+      <elementSetY object="label7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label7" object-type="object" relative="" relative-type="" value="784" value-type="integer"/>
+      <elementSetY object="panel20" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementSetX object="panel20" object-type="object" relative="" relative-type="" value="776" value-type="integer"/>
+      <elementToggle object="panel20" object-type="object"/>
+      <elementToggle object="label7" object-type="object"/>
+    </method>
+  <method name="doPanel8MouseEnter">
+      <elementSetX object="label8" object-type="object" relative="" relative-type="" value="465" value-type="integer"/>
+      <elementSetY object="label8" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel21" object-type="object" relative="" relative-type="" value="456" value-type="integer"/>
+      <elementSetY object="panel21" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="label8" object-type="object"/>
+      <elementToggle object="panel21" object-type="object"/>
+    </method>
+  <method name="doPanel9MouseEnter">
+      <elementSetX object="label9" object-type="object" relative="" relative-type="" value="708" value-type="integer"/>
+      <elementSetY object="label9" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel22" object-type="object" relative="" relative-type="" value="704" value-type="integer"/>
+      <elementSetY object="panel22" object-type="object" relative="" relative-type="" value="128" value-type="integer"/>
+      <elementToggle object="panel22" object-type="object"/>
+      <elementToggle object="label9" object-type="object"/>
+    </method>
+  <method name="doPanel6MouseExit">
+      <elementToggle object="label6" object-type="object"/>
+      <elementToggle object="panel19" object-type="object"/>
+    </method>
+  <method name="doPanel7MouseExit">
+      <elementToggle object="label7" object-type="object"/>
+      <elementToggle object="panel20" object-type="object"/>
+    </method>
+  
+  
+  <method name="doPanel9MouseExit">
+      <elementToggle object="panel22" object-type="object"/>
+      <elementToggle object="label9" object-type="object"/>
+    </method>
+  <method name="doPanel8MouseExit">
+      <elementToggle object="label8" object-type="object"/>
+      <elementToggle object="panel21" object-type="object"/>
+    </method>
+  <method name="doPanel4ClickLeft">
+      <browse url="https://cdn.fastly.steamstatic.com/client/installer/SteamSetup.exe" url-type="string"/>
+    </method>
+  <method name="doPanel6ClickLeft">
+      <browse url="https://media.contentapi.ea.com/content/dam/eacom/ea-app/common/ea-app-cta-windows.png.adapt.crop16x9.652w.png" url-type="string"/>
+    </method>
+  <method name="doPanel7ClickLeft">
+      <browse url="https://downloader.battle.net//download/getInstallerForGame?os=win&amp;gameProgram=BATTLENET_APP&amp;version=Live" url-type="string"/>
+    </method>
+  <method name="doPanel8ClickLeft">
+      <browse url="https://ubi.li/4vxt9" url-type="string"/>
+    </method>
+  <method name="doPanel9ClickLeft">
+      <browse url="https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi?trackingId=b9a2eb47d1824fc9b7a976355939bd2d" url-type="string"/>
+    </method>
+  </class>
+</root>
