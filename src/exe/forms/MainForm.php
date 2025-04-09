@@ -186,6 +186,38 @@ class MainForm extends AbstractForm
         
     }
 
+    /**
+     * @event panel11.click-Left 
+     */
+    function doPanel11ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label22.mouseEnter 
+     */
+    function doLabel22MouseEnter(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label22.mouseExit 
+     */
+    function doLabel22MouseExit(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event image11.click-Left 
+     */
+    function doImage11ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
 
 
 

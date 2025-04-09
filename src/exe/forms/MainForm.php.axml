@@ -216,5 +216,53 @@
   <method name="doLabelMouseEnter">
       <toast value="Версия программы 0.4" value-type="string"/>
     </method>
+  
+    
+    
+  <method name="doLabel22MouseEnter">
+      <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel11" object-type="object"/>
+    </method>
+  <method name="doLabel22MouseExit">
+      <behaviourDisable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel11" object-type="object"/>
+    </method>
+    
+  
+  
+  <method name="doPanel11ClickLeft">
+      <elementShow object="image11" object-type="object"/>
+      <elementShow object="separator5" object-type="object"/>
+      <elementShow object="label24" object-type="object"/>
+      <elementShow object="label25" object-type="object"/>
+      <elementShow object="panel7" object-type="object"/>
+      <elementShow object="label26" object-type="object"/>
+      <elementShow object="panel3" object-type="object"/>
+      <elementShow object="panel4" object-type="object"/>
+      <elementSetX object="image11" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
+      <elementSetY object="image11" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
+      <elementSetX object="label24" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label24" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="label25" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label25" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
+      <elementSetX object="panel7" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="panel7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="label26" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetY object="label26" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
+      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
+  <method name="doImage11ClickLeft">
+      <elementHide object="label26" object-type="object"/>
+      <elementHide object="label25" object-type="object"/>
+      <elementHide object="image11" object-type="object"/>
+      <elementHide object="separator5" object-type="object"/>
+      <elementHide object="label24" object-type="object"/>
+      <elementHide object="panel3" object-type="object"/>
+      <elementHide object="panel7" object-type="object"/>
+      <elementHide object="panel4" object-type="object"/>
+    </method>
   </class>
 </root>

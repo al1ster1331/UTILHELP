@@ -67,7 +67,7 @@
         <launch4j>
             <config headerType="gui" outfile="${dist}/UTILHELP.exe"
                     dontWrapJar="false" jarPath="${dist}/UTILHELP.jar" chdir="."
-                    downloadUrl="http://java.com/download" icon="C:\Temp\e0435c24-03d0-4271-8632-d249e66c10816689896402944014227.ico">
+                    downloadUrl="http://java.com/download" icon="C:\Temp\5dd6dba4-3d85-486c-b5dc-048a58f10ddd8807873198097642180.ico">
                 <classPath mainClass="org.develnext.jphp.ext.javafx.FXLauncher">
                     <cp>lib/*</cp>
                 </classPath>

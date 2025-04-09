@@ -420,5 +420,20 @@
   <method name="doPanel9ClickLeft">
       <browse url="https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi?trackingId=b9a2eb47d1824fc9b7a976355939bd2d" url-type="string"/>
     </method>
+  <method name="doPanel3MouseEnter">
+      <elementSetX object="label10" object-type="object" relative="" relative-type="" value="290" value-type="integer"/>
+      <elementSetY object="label10" object-type="object" relative="" relative-type="" value="351" value-type="integer"/>
+      <elementSetX object="panel23" object-type="object" relative="" relative-type="" value="280" value-type="integer"/>
+      <elementSetY object="panel23" object-type="object" relative="" relative-type="" value="344" value-type="integer"/>
+      <elementToggle object="panel23" object-type="object"/>
+      <elementToggle object="label10" object-type="object"/>
+    </method>
+  <method name="doPanel3MouseExit">
+      <elementToggle object="panel23" object-type="object"/>
+      <elementToggle object="label10" object-type="object"/>
+    </method>
+  <method name="doPanel3ClickLeft">
+      <browse url="https://github.com/hydralauncher/hydra/releases/download/v3.4.0/hydralauncher-3.4.0-setup.exe" url-type="string"/>
+    </method>
   </class>
 </root>

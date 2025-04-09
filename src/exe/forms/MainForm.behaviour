@@ -33,4 +33,11 @@
   <target id="label17">
     <behaviour threshold="0.99" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
   </target>
+  <target id="panel11">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="4" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="panel12">
+    <behaviour color="#000000" offsetX="0" offsetY="0" radius="14" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
 </behaviours>

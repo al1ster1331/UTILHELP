@@ -43,7 +43,7 @@
   </target>
   <target id="panel3">
     <behaviour color="#000000" offsetX="0" offsetY="0" radius="14" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-    <behaviour enabled="" level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="HOVER"/>
   </target>
   <target id="panel5">
     <behaviour color="#000000" offsetX="0" offsetY="0" radius="14" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>

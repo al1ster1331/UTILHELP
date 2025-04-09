@@ -378,6 +378,84 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
+    /**
+     * @event panel11.click-Left 
+     */
+    function doPanel11ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->image11->show();
+		$this->separator5->show();
+		$this->label24->show();
+		$this->label25->show();
+		$this->panel7->show();
+		$this->label26->show();
+		$this->panel3->show();
+		$this->panel4->show();
+		$this->image11->x = 1120;
+		$this->image11->y = 144;
+		$this->separator5->x = 111;
+		$this->separator5->y = 187;
+		$this->label24->x = 120;
+		$this->label24->y = 144;
+		$this->label25->x = 120;
+		$this->label25->y = 160;
+		$this->panel7->x = 111;
+		$this->panel7->y = 136;
+		$this->label26->x = 136;
+		$this->label26->y = 230;
+		$this->panel3->x = 111;
+		$this->panel3->y = 136;
+		$this->panel4->x = 0;
+		$this->panel4->y = 0;
+
+        
+    }
+
+    /**
+     * @event label22.mouseEnter 
+     */
+    function doLabel22MouseEnter(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel11->glowEffect->enable();
+
+        
+    }
+
+    /**
+     * @event label22.mouseExit 
+     */
+    function doLabel22MouseExit(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel11->glowEffect->disable();
+
+        
+    }
+
+    /**
+     * @event image11.click-Left 
+     */
+    function doImage11ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->label26->hide();
+		$this->label25->hide();
+		$this->image11->hide();
+		$this->separator5->hide();
+		$this->label24->hide();
+		$this->panel3->hide();
+		$this->panel7->hide();
+		$this->panel4->hide();
+
+        
+    }
+
 
 
 

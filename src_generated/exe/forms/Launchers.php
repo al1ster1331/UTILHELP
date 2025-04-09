@@ -290,6 +290,15 @@ $e = $event ?: $e; // legacy code from 16 rc-2
      */
     function doPanel3MouseEnter(UXMouseEvent $e = null)
     {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->label10->x = 290;
+		$this->label10->y = 351;
+		$this->panel23->x = 280;
+		$this->panel23->y = 344;
+		$this->panel23->visible = !$this->panel23->visible;
+		$this->label10->visible = !$this->label10->visible;
+
         
     }
 
@@ -298,6 +307,11 @@ $e = $event ?: $e; // legacy code from 16 rc-2
      */
     function doPanel3MouseExit(UXMouseEvent $e = null)
     {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel23->visible = !$this->panel23->visible;
+		$this->label10->visible = !$this->label10->visible;
+
         
     }
 
@@ -366,6 +380,10 @@ $e = $event ?: $e; // legacy code from 16 rc-2
      */
     function doPanel3ClickLeft(UXMouseEvent $e = null)
     {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		browse('https://github.com/hydralauncher/hydra/releases/download/v3.4.0/hydralauncher-3.4.0-setup.exe');
+
         
     }
 

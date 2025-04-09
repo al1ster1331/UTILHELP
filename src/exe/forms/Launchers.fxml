@@ -169,7 +169,7 @@
             <Font name="System Regular" size="12"/>
           </titleFont>
         </Panel>
-        <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+        <Data cursor="HAND" enabled="1" id="data-panel3" visible="1"/>
         <Data cursor="DEFAULT" enabled="" id="data-panel18" visible=""/>
         <Data cursor="DEFAULT" enabled="" id="data-panel19" visible=""/>
         <Data cursor="DEFAULT" enabled="" id="data-panel20" visible=""/>
@@ -210,7 +210,7 @@
             <Font name="System Regular" size="12"/>
           </font>
         </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="" id="data-image8" image=".data/img/REALTEK.png" visible=""/>
+        <Data cursor="DEFAULT" enabled="" id="data-image8" image=".data/img/HYDRA.png" visible="1"/>
         <Panel backgroundColor="#4d4d4d" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel18" layoutX="0" layoutY="816" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="264" prefWidth="296" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
           <children/>
           <titleFont>
@@ -278,7 +278,7 @@
           </titleFont>
         </Panel>
         <Data cursor="DEFAULT" enabled="" id="data-panel23" visible=""/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="16" layoutY="1120" prefHeight="248" prefWidth="280" styleClass="label " text="Realtek High Definition Audio Driver. Набор системных драйверов для поддержки работоспособности звуковых карт на базе чипа от Realtek. Без установки этого драйвера звуковая карта не будет определяться системой и, как следствие, не будет функционировать." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="16" layoutY="1120" prefHeight="248" prefWidth="280" styleClass="label " text="Hydra Launcher — это универсальный игровой лаунчер для пиратских игр. Он позволяет пользователям собирать огромную библиотеку игр и скачивать многие проекты бесплатно. В основе Hydra Launcher лежит стандартный торрент-трекер." textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
           <font>
             <Font name="Ebrima" size="15"/>
           </font>
