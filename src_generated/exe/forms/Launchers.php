@@ -111,29 +111,7 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
-    /**
-     * @event image39.click-Left 
-     */
-    function doImage39ClickLeft(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
 
-		browse('https://github.com/al1ster1331/UTILHELP');
-
-        
-    }
-
-    /**
-     * @event image40.click-Left 
-     */
-    function doImage40ClickLeft(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		browse('https://t.me/UTILHELP13');
-
-        
-    }
 
     /**
      * @event panel4.mouseEnter 
@@ -387,17 +365,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
-    /**
-     * @event label.mouseEnter 
-     */
-    function doLabelMouseEnter(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		$this->toast('Версия программы 0.4');
-
-        
-    }
 
     /**
      * @event label11.click-Left 

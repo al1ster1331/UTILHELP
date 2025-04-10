@@ -54,12 +54,8 @@
       <hideForm form="MainForm" form-type="form"/>
       <elementHide object="progressIndicator" object-type="object"/>
     </method>
-  <method name="doImage39ClickLeft">
-      <browse url="https://github.com/al1ster1331/UTILHELP" url-type="string"/>
-    </method>
-  <method name="doImage40ClickLeft">
-      <browse url="https://t.me/UTILHELP13" url-type="string"/>
-    </method>
+  
+  
   <method name="doLabel7MouseEnter">
       <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel5" object-type="object"/>
     </method>
@@ -213,9 +209,7 @@
       <hideForm form="MainForm" form-type="form"/>
       <elementHide object="progressIndicator" object-type="object"/>
     </method>
-  <method name="doLabelMouseEnter">
-      <toast value="Версия программы 0.4" value-type="string"/>
-    </method>
+  
   
     
     

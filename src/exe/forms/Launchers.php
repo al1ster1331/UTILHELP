@@ -69,21 +69,7 @@ class Launchers extends AbstractForm
         
     }
 
-    /**
-     * @event image39.click-Left 
-     */
-    function doImage39ClickLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
 
-    /**
-     * @event image40.click-Left 
-     */
-    function doImage40ClickLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
 
     /**
      * @event panel4.mouseEnter 
@@ -229,13 +215,6 @@ class Launchers extends AbstractForm
         
     }
 
-    /**
-     * @event label.mouseEnter 
-     */
-    function doLabelMouseEnter(UXMouseEvent $e = null)
-    {    
-        
-    }
 
     /**
      * @event label11.click-Left 

@@ -3,7 +3,7 @@
   <children>
     <Panel backgroundColor="#1a1a1a" borderColor="#ffffff" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="288" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <ProgressBar focusTraversable="false" id="progressBar" layoutX="8" layoutY="80" prefHeight="18" prefWidth="272" progress="0" styleClass="progress-bar "/>
+        <ProgressBar focusTraversable="false" id="progressBar" layoutX="8" layoutY="72" prefHeight="18" prefWidth="272" progress="0" style="-fx-accent: black ;&#10;-fx-padding: 15" styleClass="progress-bar "/>
         <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible="1"/>
         <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="64" layoutY="24" prefHeight="40" prefWidth="160" styleClass="label " text="Загрузка" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
@@ -11,7 +11,7 @@
           </font>
         </LabelEx>
         <Data cursor="WAIT" enabled="1" id="data-label" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image" layoutX="88" layoutY="16" mosaic="false" mosaicGap="0" opacity="0.1219512195122" proportional="false" stretch="true" styleClass="" textFill="#000000" width="112">
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image" layoutX="80" layoutY="16" mosaic="false" mosaicGap="0" opacity="0.1219512195122" proportional="false" stretch="true" styleClass="" textFill="#000000" width="112">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -23,13 +23,13 @@
       </titleFont>
     </Panel>
     <Data cursor="WAIT" enabled="1" id="data-panel" visible="1"/>
-    <ProgressBar focusTraversable="false" id="progressBarAlt" layoutX="8" layoutY="80" prefHeight="18" prefWidth="272" progress="0.25" styleClass="progress-bar "/>
+    <ProgressBar focusTraversable="false" id="progressBarAlt" layoutX="8" layoutY="72" prefHeight="18" prefWidth="272" progress="0.25" style="-fx-accent: black ;&#10;-fx-padding: 15" styleClass="progress-bar "/>
     <Data cursor="DEFAULT" enabled="1" id="data-progressBarAlt" visible=""/>
-    <ProgressBar focusTraversable="false" id="progressBar3" layoutX="8" layoutY="80" prefHeight="18" prefWidth="272" progress="0.5" styleClass="progress-bar "/>
+    <ProgressBar focusTraversable="false" id="progressBar3" layoutX="8" layoutY="72" prefHeight="18" prefWidth="272" progress="0.5" style="-fx-accent: black ; &#10;-fx-padding: 15" styleClass="progress-bar "/>
     <Data cursor="DEFAULT" enabled="1" id="data-progressBar3" visible=""/>
-    <ProgressBar focusTraversable="false" id="progressBar4" layoutX="8" layoutY="80" prefHeight="18" prefWidth="272" progress="0.85" styleClass="progress-bar "/>
+    <ProgressBar focusTraversable="false" id="progressBar4" layoutX="8" layoutY="72" prefHeight="18" prefWidth="272" progress="0.85" style="-fx-padding: 15 ;&#10;-fx-accent: black&#10;&#10;" styleClass="progress-bar "/>
     <Data cursor="DEFAULT" enabled="1" id="data-progressBar4" visible=""/>
-    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="20" layoutY="96" prefHeight="40" prefWidth="248" styleClass="label " text="Пожалуйста подождите" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="25" layoutY="104" prefHeight="40" prefWidth="248" styleClass="label " text="Пожалуйста подождите" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="Courier New" size="15"/>
       </font>

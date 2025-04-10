@@ -3,7 +3,7 @@
   <children>
     <Panel backgroundColor="#1a1a1a" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="800" prefWidth="1280" styleClass="" titleColor="#4d4d4d" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="10" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="15" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="666" prefWidth="1250" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+        <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="10" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="15" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="664" prefWidth="1250" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
           <children>
             <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="600" id="image10" layoutX="320" layoutY="48" mosaic="false" mosaicGap="0" proportional="false" rotate="8.780487804878" stretch="true" styleClass="" textFill="#000000" width="600">
               <font>
@@ -88,14 +88,6 @@
         </Panel>
         <Data cursor="HAND" enabled="1" id="data-image" image=".data/img/close.png" visible="1"/>
         <Data cursor="HAND" enabled="1" id="data-imageAlt" image=".data/img/roll up.png" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="576" layoutY="0" prefHeight="44" prefWidth="128" styleClass="label " text="UTILHELP" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
-          <font>
-            <Font name="Courier New" size="25"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-        <Separator focusTraversable="false" id="separator" layoutX="576" layoutY="32" orientation="HORIZONTAL" prefHeight="8" prefWidth="120" styleClass="separator "/>
-        <Data cursor="DEFAULT" enabled="" id="data-separator" visible="1"/>
         <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="80" layoutY="64" prefHeight="31" prefWidth="112" styleClass="label " text="Главная" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Courier New" size="25"/>
@@ -119,18 +111,6 @@
         <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
         <ProgressIndicator focusTraversable="false" id="progressIndicator" layoutX="40" layoutY="67" prefHeight="24" prefWidth="24" progress="-1" styleClass="progress-indicator "/>
         <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image39" layoutX="1230" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="HAND" enabled="1" id="data-image39" image=".data/img/github.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image40" layoutX="1200" layoutY="70" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="HAND" enabled="1" id="data-image40" image=".data/img/tg.png" visible="1"/>
         <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="448" layoutY="136" prefHeight="47" prefWidth="385" styleClass="label " text="Новости UTILHELP" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Courier New" size="40"/>
@@ -161,6 +141,18 @@
             <Font name="System Regular" size="12"/>
           </font>
         </ImageViewEx>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label27" layoutX="36" layoutY="8" prefHeight="0" prefWidth="77" styleClass="label " text="UTILHELP" textAlignment="LEFT" textFill="#b3b3b3" underline="false" wrapText="false">
+          <font>
+            <Font name="Courier New" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label27" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image12" layoutX="15" layoutY="9" mosaic="false" mosaicGap="0" opacity="0.5" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image12" image=".data/img/logo-2.png" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
@@ -339,5 +331,17 @@
         <Font name="Ebrima" size="15"/>
       </font>
     </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label28" layoutX="136" layoutY="8" prefHeight="0" prefWidth="77" styleClass="label " text="Контакты" textAlignment="LEFT" textFill="#b3b3b3" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label28" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label29" layoutX="240" layoutY="8" prefHeight="0" prefWidth="20" styleClass="label " text="Вид" textAlignment="LEFT" textFill="#b3b3b3" underline="false" wrapText="false">
+      <font>
+        <Font name="Courier New" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label29" visible="1"/>
   </children>
 </AnchorPane>
