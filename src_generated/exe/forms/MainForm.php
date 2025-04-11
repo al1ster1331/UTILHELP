@@ -112,29 +112,7 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
-    /**
-     * @event label9.mouseEnter 
-     */
-    function doLabel9MouseEnter(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
 
-		$this->panel6->glowEffect->enable();
-
-        
-    }
-
-    /**
-     * @event label9.mouseExit 
-     */
-    function doLabel9MouseExit(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		$this->panel6->glowEffect->disable();
-
-        
-    }
 
     /**
      * @event image5.click-Left 
@@ -155,40 +133,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
-    /**
-     * @event panel6.click-Left 
-     */
-    function doPanel6ClickLeft(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		$this->image5->show();
-		$this->separator5->show();
-		$this->label12->show();
-		$this->label11->show();
-		$this->panel7->show();
-		$this->label10->show();
-		$this->panel3->show();
-		$this->panel4->show();
-		$this->image5->x = 1120;
-		$this->image5->y = 144;
-		$this->separator5->x = 111;
-		$this->separator5->y = 187;
-		$this->label12->x = 120;
-		$this->label12->y = 144;
-		$this->label11->x = 120;
-		$this->label11->y = 160;
-		$this->panel7->x = 111;
-		$this->panel7->y = 136;
-		$this->label10->x = 136;
-		$this->label10->y = 200;
-		$this->panel3->x = 111;
-		$this->panel3->y = 136;
-		$this->panel4->x = 0;
-		$this->panel4->y = 0;
-
-        
-    }
     
 
     /**
@@ -202,7 +146,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->separator5->show();
 		$this->label13->show();
 		$this->label14->show();
-		$this->panel7->show();
 		$this->label15->show();
 		$this->panel3->show();
 		$this->panel4->show();
@@ -214,8 +157,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->label13->y = 144;
 		$this->label14->x = 120;
 		$this->label14->y = 160;
-		$this->panel7->x = 111;
-		$this->panel7->y = 136;
 		$this->label15->x = 136;
 		$this->label15->y = 230;
 		$this->panel3->x = 111;
@@ -239,7 +180,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->separator5->hide();
 		$this->label15->hide();
 		$this->panel3->hide();
-		$this->panel7->hide();
 		$this->panel4->hide();
 
         
@@ -257,7 +197,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->separator5->show();
 		$this->label18->show();
 		$this->label19->show();
-		$this->panel7->show();
 		$this->label20->show();
 		$this->panel3->show();
 		$this->panel4->show();
@@ -269,8 +208,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->label19->y = 144;
 		$this->label18->x = 120;
 		$this->label18->y = 160;
-		$this->panel7->x = 111;
-		$this->panel7->y = 136;
 		$this->label20->x = 136;
 		$this->label20->y = 230;
 		$this->panel3->x = 111;
@@ -296,7 +233,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->separator5->hide();
 		$this->label20->hide();
 		$this->panel3->hide();
-		$this->panel7->hide();
 		$this->panel4->hide();
 
         
@@ -356,7 +292,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->separator5->show();
 		$this->label24->show();
 		$this->label25->show();
-		$this->panel7->show();
 		$this->label26->show();
 		$this->panel3->show();
 		$this->panel4->show();
@@ -368,8 +303,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->label24->y = 144;
 		$this->label25->x = 120;
 		$this->label25->y = 160;
-		$this->panel7->x = 111;
-		$this->panel7->y = 136;
 		$this->label26->x = 136;
 		$this->label26->y = 230;
 		$this->panel3->x = 111;
@@ -417,11 +350,124 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 		$this->separator5->hide();
 		$this->label24->hide();
 		$this->panel3->hide();
-		$this->panel7->hide();
 		$this->panel4->hide();
 
         
     }
+
+    /**
+     * @event label27.click-Left 
+     */
+    function doLabel27ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('Info');
+
+        
+    }
+
+    /**
+     * @event label28.click-Left 
+     */
+    function doLabel28ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('contacts');
+
+        
+    }
+
+    /**
+     * @event panel6.click-Left 
+     */
+    function doPanel6ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->image12->show();
+		$this->separator5->show();
+		$this->label11->show();
+		$this->label10->show();
+		$this->label9->show();
+		$this->panel3->show();
+		$this->panel4->show();
+		$this->image12->x = 1120;
+		$this->image12->y = 144;
+		$this->separator5->x = 111;
+		$this->separator5->y = 187;
+		$this->label11->x = 120;
+		$this->label11->y = 144;
+		$this->label9->x = 120;
+		$this->label9->y = 160;
+		$this->label10->x = 136;
+		$this->label10->y = 230;
+		$this->panel3->x = 111;
+		$this->panel3->y = 136;
+		$this->panel4->x = 0;
+		$this->panel4->y = 0;
+
+        
+    }
+
+    /**
+     * @event label.mouseEnter 
+     */
+    function doLabelMouseEnter(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel6->glowEffect->enable();
+
+        
+    }
+
+    /**
+     * @event label.mouseExit 
+     */
+    function doLabelMouseExit(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel6->glowEffect->disable();
+
+        
+    }
+
+    /**
+     * @event image12.click-Left 
+     */
+    function doImage12ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->label11->hide();
+		$this->label10->hide();
+		$this->image12->hide();
+		$this->separator5->hide();
+		$this->label9->hide();
+		$this->panel3->hide();
+		$this->panel4->hide();
+
+        
+    }
+
+    /**
+     * @event label29.click-Left 
+     */
+    function doLabel29ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->toast('В стадии разработки.');
+
+        
+    }
+
+
+
+
 
 
 

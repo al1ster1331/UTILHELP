@@ -1,5 +1,7 @@
 [classes]
+exe\forms\contacts
 exe\forms\Drivers
+exe\forms\Info
 exe\forms\Launchers
 exe\forms\Loading
 exe\forms\MainForm

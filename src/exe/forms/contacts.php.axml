@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="contacts">
+    <method name="doLabel4ClickLeft">
+      <browse url="https://t.me/UTILHELP13" url-type="string"/>
+    </method>
+  <method name="doLabelAltClickLeft">
+      <browse url="https://github.com/al1ster1331/UTILHELP" url-type="string"/>
+    </method>
+    
+  <method name="doImage4ClickLeft">
+      <hideForm form="contacts" form-type="form"/>
+    </method>
+  </class>
+</root>

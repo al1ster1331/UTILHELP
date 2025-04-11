@@ -454,5 +454,22 @@
       <elementHide object="progressIndicator" object-type="object"/>
     </method>
   
+  
+  
+  
+  
+  <method name="doLabel29ClickLeft">
+      <toast value="В стадии разработки." value-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doLabel27ClickLeft">
+      <showFormAndWait form="Info" form-type="form"/>
+    </method>
+  <method name="doLabel28ClickLeft">
+      <showFormAndWait form="contacts" form-type="form"/>
+    </method>
   </class>
 </root>

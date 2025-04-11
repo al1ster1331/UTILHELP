@@ -554,6 +554,43 @@ $e = $event ?: $e; // legacy code from 16 rc-2
         
     }
 
+    /**
+     * @event label27.click-Left 
+     */
+    function doLabel27ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('Info');
+
+        
+    }
+
+    /**
+     * @event label28.click-Left 
+     */
+    function doLabel28ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		app()->showFormAndWait('contacts');
+
+        
+    }
+
+    /**
+     * @event label29.click-Left 
+     */
+    function doLabel29ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->toast('В стадии разработки.');
+
+        
+    }
+
+
 
 
 

@@ -37,14 +37,7 @@
   
   
   
-  <method name="doLabel3ClickLeft">
-      <elementShow object="progressIndicator" object-type="object"/>
-      <sleep sync="" sync-type="" value="500" value-type="integer"/>
-      <showForm form="Drivers" form-type="form"/>
-      <sleep sync="" sync-type="" value="100" value-type="integer"/>
-      <hideForm form="MainForm" form-type="form"/>
-      <elementHide object="progressIndicator" object-type="object"/>
-    </method>
+  
   
   <method name="doLabel4ClickLeft">
       <elementShow object="progressIndicator" object-type="object"/>
@@ -63,12 +56,8 @@
   <method name="doLabel7MouseExit">
       <behaviourDisable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel5" object-type="object"/>
     </method>
-  <method name="doLabel9MouseEnter">
-      <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel6" object-type="object"/>
-    </method>
-  <method name="doLabel9MouseExit">
-      <behaviourDisable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel6" object-type="object"/>
-    </method>
+  
+  
   <method name="doImage5ClickLeft">
       <elementHide object="label11" object-type="object"/>
       <elementHide object="label12" object-type="object"/>
@@ -82,117 +71,24 @@
   
   
   
-  <method name="doPanel6ClickLeft">
-      <elementShow object="image5" object-type="object"/>
-      <elementShow object="separator5" object-type="object"/>
-      <elementShow object="label12" object-type="object"/>
-      <elementShow object="label11" object-type="object"/>
-      <elementShow object="panel7" object-type="object"/>
-      <elementShow object="label10" object-type="object"/>
-      <elementShow object="panel3" object-type="object"/>
-      <elementShow object="panel4" object-type="object"/>
-      <elementSetX object="image5" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
-      <elementSetY object="image5" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
-      <elementSetX object="label12" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label12" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="label11" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label11" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
-      <elementSetX object="panel7" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="label10" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetY object="label10" object-type="object" relative="" relative-type="" value="200" value-type="integer"/>
-      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-    </method>
+  
   
     
   
-  <method name="doImage6ClickLeft">
-      <elementHide object="label14" object-type="object"/>
-      <elementHide object="label13" object-type="object"/>
-      <elementHide object="image6" object-type="object"/>
-      <elementHide object="separator5" object-type="object"/>
-      <elementHide object="label15" object-type="object"/>
-      <elementHide object="panel3" object-type="object"/>
-      <elementHide object="panel7" object-type="object"/>
-      <elementHide object="panel4" object-type="object"/>
-    </method>
   
-  <method name="doPanel5ClickLeft">
-      <elementShow object="image6" object-type="object"/>
-      <elementShow object="separator5" object-type="object"/>
-      <elementShow object="label13" object-type="object"/>
-      <elementShow object="label14" object-type="object"/>
-      <elementShow object="panel7" object-type="object"/>
-      <elementShow object="label15" object-type="object"/>
-      <elementShow object="panel3" object-type="object"/>
-      <elementShow object="panel4" object-type="object"/>
-      <elementSetX object="image6" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
-      <elementSetY object="image6" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
-      <elementSetX object="label13" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label13" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="label14" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label14" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
-      <elementSetX object="panel7" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="label15" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetY object="label15" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
-      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-    </method>
+  
+  
   
   
     
     
     
   
-  <method name="doImage8ClickLeft">
-      <elementHide object="label18" object-type="object"/>
-      <elementHide object="label19" object-type="object"/>
-      <elementHide object="image8" object-type="object"/>
-      <elementHide object="separator5" object-type="object"/>
-      <elementHide object="label20" object-type="object"/>
-      <elementHide object="panel3" object-type="object"/>
-      <elementHide object="panel7" object-type="object"/>
-      <elementHide object="panel4" object-type="object"/>
-    </method>
+  
     
     
   
-  <method name="doPanel9ClickLeft">
-      <elementShow object="image8" object-type="object"/>
-      <elementShow object="separator5" object-type="object"/>
-      <elementShow object="label18" object-type="object"/>
-      <elementShow object="label19" object-type="object"/>
-      <elementShow object="panel7" object-type="object"/>
-      <elementShow object="label20" object-type="object"/>
-      <elementShow object="panel3" object-type="object"/>
-      <elementShow object="panel4" object-type="object"/>
-      <elementSetX object="image8" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
-      <elementSetY object="image8" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
-      <elementSetX object="label19" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label19" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="label18" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label18" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
-      <elementSetX object="panel7" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="label20" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetY object="label20" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
-      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-    </method>
+  
   <method name="doLabel21MouseEnter">
       <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel9" object-type="object"/>
     </method>
@@ -222,12 +118,71 @@
     
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doLabel3ClickLeft">
+      <elementShow object="progressIndicator" object-type="object"/>
+      <sleep sync="" sync-type="" value="500" value-type="integer"/>
+      <showForm form="Drivers" form-type="form"/>
+      <sleep sync="" sync-type="" value="100" value-type="integer"/>
+      <hideForm form="MainForm" form-type="form"/>
+      <elementHide object="progressIndicator" object-type="object"/>
+    </method>
+  
+  
+  
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  <method name="doLabelMouseEnter">
+      <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel6" object-type="object"/>
+    </method>
+  <method name="doLabelMouseExit">
+      <behaviourDisable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel6" object-type="object"/>
+    </method>
+  
+  <method name="doPanel6ClickLeft">
+      <elementShow object="image12" object-type="object"/>
+      <elementShow object="separator5" object-type="object"/>
+      <elementShow object="label11" object-type="object"/>
+      <elementShow object="label10" object-type="object"/>
+      <elementShow object="label9" object-type="object"/>
+      <elementShow object="panel3" object-type="object"/>
+      <elementShow object="panel4" object-type="object"/>
+      <elementSetX object="image12" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
+      <elementSetY object="image12" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
+      <elementSetX object="label11" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label11" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="label9" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label9" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
+      <elementSetX object="label10" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetY object="label10" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
+      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
   <method name="doPanel11ClickLeft">
       <elementShow object="image11" object-type="object"/>
       <elementShow object="separator5" object-type="object"/>
       <elementShow object="label24" object-type="object"/>
       <elementShow object="label25" object-type="object"/>
-      <elementShow object="panel7" object-type="object"/>
       <elementShow object="label26" object-type="object"/>
       <elementShow object="panel3" object-type="object"/>
       <elementShow object="panel4" object-type="object"/>
@@ -239,14 +194,85 @@
       <elementSetY object="label24" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
       <elementSetX object="label25" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
       <elementSetY object="label25" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
-      <elementSetX object="panel7" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel7" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
       <elementSetX object="label26" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
       <elementSetY object="label26" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
       <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
       <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
       <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
       <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
+  <method name="doPanel9ClickLeft">
+      <elementShow object="image8" object-type="object"/>
+      <elementShow object="separator5" object-type="object"/>
+      <elementShow object="label18" object-type="object"/>
+      <elementShow object="label19" object-type="object"/>
+      <elementShow object="label20" object-type="object"/>
+      <elementShow object="panel3" object-type="object"/>
+      <elementShow object="panel4" object-type="object"/>
+      <elementSetX object="image8" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
+      <elementSetY object="image8" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
+      <elementSetX object="label19" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label19" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="label18" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label18" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
+      <elementSetX object="label20" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetY object="label20" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
+      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
+  <method name="doPanel5ClickLeft">
+      <elementShow object="image6" object-type="object"/>
+      <elementShow object="separator5" object-type="object"/>
+      <elementShow object="label13" object-type="object"/>
+      <elementShow object="label14" object-type="object"/>
+      <elementShow object="label15" object-type="object"/>
+      <elementShow object="panel3" object-type="object"/>
+      <elementShow object="panel4" object-type="object"/>
+      <elementSetX object="image6" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
+      <elementSetY object="image6" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
+      <elementSetX object="label13" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label13" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="label14" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label14" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
+      <elementSetX object="label15" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetY object="label15" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
+      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
+  <method name="doImage12ClickLeft">
+      <elementHide object="label11" object-type="object"/>
+      <elementHide object="label10" object-type="object"/>
+      <elementHide object="image12" object-type="object"/>
+      <elementHide object="separator5" object-type="object"/>
+      <elementHide object="label9" object-type="object"/>
+      <elementHide object="panel3" object-type="object"/>
+      <elementHide object="panel4" object-type="object"/>
+    </method>
+  <method name="doImage6ClickLeft">
+      <elementHide object="label14" object-type="object"/>
+      <elementHide object="label13" object-type="object"/>
+      <elementHide object="image6" object-type="object"/>
+      <elementHide object="separator5" object-type="object"/>
+      <elementHide object="label15" object-type="object"/>
+      <elementHide object="panel3" object-type="object"/>
+      <elementHide object="panel4" object-type="object"/>
+    </method>
+  <method name="doImage8ClickLeft">
+      <elementHide object="label18" object-type="object"/>
+      <elementHide object="label19" object-type="object"/>
+      <elementHide object="image8" object-type="object"/>
+      <elementHide object="separator5" object-type="object"/>
+      <elementHide object="label20" object-type="object"/>
+      <elementHide object="panel3" object-type="object"/>
+      <elementHide object="panel4" object-type="object"/>
     </method>
   <method name="doImage11ClickLeft">
       <elementHide object="label26" object-type="object"/>
@@ -255,8 +281,20 @@
       <elementHide object="separator5" object-type="object"/>
       <elementHide object="label24" object-type="object"/>
       <elementHide object="panel3" object-type="object"/>
-      <elementHide object="panel7" object-type="object"/>
       <elementHide object="panel4" object-type="object"/>
+    </method>
+  <method name="doLabel29ClickLeft">
+      <toast value="В стадии разработки." value-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doLabel27ClickLeft">
+      <showFormAndWait form="Info" form-type="form"/>
+    </method>
+  <method name="doLabel28ClickLeft">
+      <showFormAndWait form="contacts" form-type="form"/>
     </method>
   </class>
 </root>

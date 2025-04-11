@@ -224,6 +224,30 @@ class Drivers extends AbstractForm
         
     }
 
+    /**
+     * @event label27.click-Left 
+     */
+    function doLabel27ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label28.click-Left 
+     */
+    function doLabel28ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label29.click-Left 
+     */
+    function doLabel29ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
 
 
 

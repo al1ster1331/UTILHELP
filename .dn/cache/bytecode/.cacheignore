@@ -1,6 +1,8 @@
 .debug/bootstrap.php
 .debug/preloader.php
+exe/forms/contacts.php
 exe/forms/Drivers.php
+exe/forms/Info.php
 exe/forms/Launchers.php
 exe/forms/Loading.php
 exe/forms/MainForm.php
