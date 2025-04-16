@@ -31,7 +31,7 @@
 
 #
 
-![Programma](https://i.imgur.com/PdtIlf3.png)
+![Programma](https://i.imgur.com/CvVpaGv.png)
 
 Преимущества приложения UTILHELP: 
 
