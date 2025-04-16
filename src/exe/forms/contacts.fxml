@@ -45,7 +45,7 @@
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/logo1.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/64x64 logo.png" visible="1"/>
     <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="115" layoutY="80" prefHeight="31" prefWidth="121" styleClass="label " text="UTILHELP" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="Courier New" size="25"/>

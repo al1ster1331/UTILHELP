@@ -8,26 +8,26 @@
             <Font name="System Regular" size="12"/>
           </font>
         </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/logo1.png" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/64x64 logo.png" visible="1"/>
         <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="115" layoutY="80" prefHeight="31" prefWidth="121" styleClass="label " text="UTILHELP" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Courier New" size="25"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="98" layoutY="112" prefHeight="25" prefWidth="154" styleClass="label " text="Версия программы: 0.45" textAlignment="CENTER" textFill="#ffffff" underline="true" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="98" layoutY="112" prefHeight="25" prefWidth="154" styleClass="label " text="Версия программы: 0.5" textAlignment="CENTER" textFill="#ffffff" underline="true" wrapText="false">
           <font>
             <Font name="Ebrima" size="14"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="20" layoutY="135" prefHeight="25" prefWidth="311" styleClass="label " text="Дата выпуска версии: 11/04/2024 - 17:01 UTC +3" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="20" layoutY="135" prefHeight="25" prefWidth="311" styleClass="label " text="Дата выпуска версии: 16/04/2025 - 21:15 UTC +3" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Ebrima" size="14"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="97" layoutY="160" prefHeight="20" prefWidth="155" styleClass="label " text="Тег версии: utilhelp-0.45" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="97" layoutY="160" prefHeight="20" prefWidth="155" styleClass="label " text="Тег версии: utilhelp-0.5" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Ebrima" size="14"/>
           </font>

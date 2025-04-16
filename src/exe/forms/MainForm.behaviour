@@ -9,10 +9,6 @@
   <target id="label4">
     <behaviour threshold="0.99" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
   </target>
-  <target id="panel5">
-    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="4" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="HOVER"/>
-  </target>
   <target id="panel3">
     <behaviour color="#000000" offsetX="0" offsetY="0" radius="14" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
   </target>
@@ -46,6 +42,10 @@
     <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
   </target>
   <target id="panel6">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="4" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="panel5">
     <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="4" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
     <behaviour level="0.3" type="behaviour\custom\GlowEffectBehaviour" when="HOVER"/>
   </target>

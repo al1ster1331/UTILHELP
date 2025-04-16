@@ -88,29 +88,7 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 
 
 
-    /**
-     * @event label7.mouseEnter 
-     */
-    function doLabel7MouseEnter(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
 
-		$this->panel5->glowEffect->enable();
-
-        
-    }
-
-    /**
-     * @event label7.mouseExit 
-     */
-    function doLabel7MouseExit(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		$this->panel5->glowEffect->disable();
-
-        
-    }
 
 
 
@@ -135,37 +113,6 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 
     
 
-    /**
-     * @event panel5.click-Left 
-     */
-    function doPanel5ClickLeft(UXMouseEvent $e = null)
-    {    
-$e = $event ?: $e; // legacy code from 16 rc-2
-
-		$this->image6->show();
-		$this->separator5->show();
-		$this->label13->show();
-		$this->label14->show();
-		$this->label15->show();
-		$this->panel3->show();
-		$this->panel4->show();
-		$this->image6->x = 1120;
-		$this->image6->y = 144;
-		$this->separator5->x = 111;
-		$this->separator5->y = 187;
-		$this->label13->x = 120;
-		$this->label13->y = 144;
-		$this->label14->x = 120;
-		$this->label14->y = 160;
-		$this->label15->x = 136;
-		$this->label15->y = 230;
-		$this->panel3->x = 111;
-		$this->panel3->y = 136;
-		$this->panel4->x = 0;
-		$this->panel4->y = 0;
-
-        
-    }
 
     /**
      * @event image6.click-Left 
@@ -461,6 +408,62 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$this->toast('В стадии разработки.');
+
+        
+    }
+
+    /**
+     * @event panel5.click-Left 
+     */
+    function doPanel5ClickLeft(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->image6->show();
+		$this->separator5->show();
+		$this->label14->show();
+		$this->label15->show();
+		$this->label13->show();
+		$this->panel3->show();
+		$this->panel4->show();
+		$this->image6->x = 1120;
+		$this->image6->y = 144;
+		$this->separator5->x = 111;
+		$this->separator5->y = 187;
+		$this->label13->x = 120;
+		$this->label13->y = 144;
+		$this->label14->x = 120;
+		$this->label14->y = 160;
+		$this->label15->x = 136;
+		$this->label15->y = 230;
+		$this->panel3->x = 111;
+		$this->panel3->y = 136;
+		$this->panel4->x = 0;
+		$this->panel4->y = 0;
+
+        
+    }
+
+    /**
+     * @event label7.mouseEnter 
+     */
+    function doLabel7MouseEnter(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel5->glowEffect->enable();
+
+        
+    }
+
+    /**
+     * @event label7.mouseExit 
+     */
+    function doLabel7MouseExit(UXMouseEvent $e = null)
+    {    
+$e = $event ?: $e; // legacy code from 16 rc-2
+
+		$this->panel5->glowEffect->disable();
 
         
     }

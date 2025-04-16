@@ -57,21 +57,7 @@ class MainForm extends AbstractForm
 
 
 
-    /**
-     * @event label7.mouseEnter 
-     */
-    function doLabel7MouseEnter(UXMouseEvent $e = null)
-    {    
-        
-    }
 
-    /**
-     * @event label7.mouseExit 
-     */
-    function doLabel7MouseExit(UXMouseEvent $e = null)
-    {    
-        
-    }
 
 
 
@@ -85,13 +71,6 @@ class MainForm extends AbstractForm
 
     
 
-    /**
-     * @event panel5.click-Left 
-     */
-    function doPanel5ClickLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
 
     /**
      * @event image6.click-Left 
@@ -228,6 +207,30 @@ class MainForm extends AbstractForm
      * @event label29.click-Left 
      */
     function doLabel29ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event panel5.click-Left 
+     */
+    function doPanel5ClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label7.mouseEnter 
+     */
+    function doLabel7MouseEnter(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event label7.mouseExit 
+     */
+    function doLabel7MouseExit(UXMouseEvent $e = null)
     {    
         
     }

@@ -49,13 +49,9 @@
     </method>
   
   
-  <method name="doLabel7MouseEnter">
-      <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel5" object-type="object"/>
-    </method>
   
-  <method name="doLabel7MouseExit">
-      <behaviourDisable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel5" object-type="object"/>
-    </method>
+  
+  
   
   
   <method name="doImage5ClickLeft">
@@ -224,29 +220,7 @@
       <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
       <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
     </method>
-  <method name="doPanel5ClickLeft">
-      <elementShow object="image6" object-type="object"/>
-      <elementShow object="separator5" object-type="object"/>
-      <elementShow object="label13" object-type="object"/>
-      <elementShow object="label14" object-type="object"/>
-      <elementShow object="label15" object-type="object"/>
-      <elementShow object="panel3" object-type="object"/>
-      <elementShow object="panel4" object-type="object"/>
-      <elementSetX object="image6" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
-      <elementSetY object="image6" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
-      <elementSetX object="label13" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label13" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
-      <elementSetX object="label14" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
-      <elementSetY object="label14" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
-      <elementSetX object="label15" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetY object="label15" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
-      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
-      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
-      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
-    </method>
+  
   <method name="doImage12ClickLeft">
       <elementHide object="label11" object-type="object"/>
       <elementHide object="label10" object-type="object"/>
@@ -295,6 +269,41 @@
     </method>
   <method name="doLabel28ClickLeft">
       <showFormAndWait form="contacts" form-type="form"/>
+    </method>
+  
+    
+    
+  
+  
+  
+  <method name="doPanel5ClickLeft">
+      <elementShow object="image6" object-type="object"/>
+      <elementShow object="separator5" object-type="object"/>
+      <elementShow object="label14" object-type="object"/>
+      <elementShow object="label15" object-type="object"/>
+      <elementShow object="label13" object-type="object"/>
+      <elementShow object="panel3" object-type="object"/>
+      <elementShow object="panel4" object-type="object"/>
+      <elementSetX object="image6" object-type="object" relative="" relative-type="" value="1120" value-type="integer"/>
+      <elementSetY object="image6" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="separator5" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="separator5" object-type="object" relative="" relative-type="" value="187" value-type="integer"/>
+      <elementSetX object="label13" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label13" object-type="object" relative="" relative-type="" value="144" value-type="integer"/>
+      <elementSetX object="label14" object-type="object" relative="" relative-type="" value="120" value-type="integer"/>
+      <elementSetY object="label14" object-type="object" relative="" relative-type="" value="160" value-type="integer"/>
+      <elementSetX object="label15" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetY object="label15" object-type="object" relative="" relative-type="" value="230" value-type="integer"/>
+      <elementSetX object="panel3" object-type="object" relative="" relative-type="" value="111" value-type="integer"/>
+      <elementSetY object="panel3" object-type="object" relative="" relative-type="" value="136" value-type="integer"/>
+      <elementSetX object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="panel4" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+    </method>
+  <method name="doLabel7MouseEnter">
+      <behaviourEnable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel5" object-type="object"/>
+    </method>
+  <method name="doLabel7MouseExit">
+      <behaviourDisable behaviour="behaviour\custom\GlowEffectBehaviour" behaviour-type="string" object="panel5" object-type="object"/>
     </method>
   </class>
 </root>
