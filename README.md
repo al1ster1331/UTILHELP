@@ -169,7 +169,7 @@
 - 📖 **Документация**: [Wiki](../../wiki)
 - 🐛 **Баги**: [Issues](../../issues)
 - 📧 **Email**: utilhelp@yandex.com
-- 💬 **Telegram**: [@UTILHELP13](https://t.me/UTILHELP13)
+- 💬 **Telegram**: [@UTILHELP13](https://t.me/UTILHELP)
 
 ### Часто задаваемые вопросы
 
