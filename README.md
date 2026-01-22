@@ -13,9 +13,9 @@
 [![PyQt6](https://img.shields.io/badge/PyQt6-GUI-41cd52?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-[![Downloads](https://img.shields.io/github/downloads/al1ster1331/UTILHELP/total?style=for-the-badge&color=success)](https://github.com/al1ster1331/UTILHELP/releases)
-[![Stars](https://img.shields.io/github/stars/al1ster1331/UTILHELP?style=for-the-badge&color=yellow)](https://github.com/al1ster1331/UTILHELP/stargazers)
-[![Issues](https://img.shields.io/github/issues/al1ster1331/UTILHELP?style=for-the-badge&color=red)](https://github.com/al1ster1331/UTILHELP/issues)
+[![Downloads](https://img.shields.io/github/downloads/al1ster13/UTILHELP/total?style=for-the-badge&color=success)](https://github.com/al1ster13/UTILHELP/releases)
+[![Stars](https://img.shields.io/github/stars/al1ster13/UTILHELP?style=for-the-badge&color=yellow)](https://github.com/al1ster13/UTILHELP/stargazers)
+[![Issues](https://img.shields.io/github/issues/al1ster13/UTILHELP?style=for-the-badge&color=red)](https://github.com/al1ster13/UTILHELP/issues)
 
 [📥 Скачать последнюю версию](../../releases/latest) • [📖 Документация](../../wiki) • [🐛 Сообщить об ошибке](../../issues/new?template=bug_report.md) • [💡 Предложить идею](../../issues/new?template=feature_request.md)
 
@@ -154,9 +154,9 @@
 
 <div align="center">
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/al1ster1331/UTILHELP?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/al1ster1331/UTILHELP?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/al1ster1331/UTILHELP?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/al1ster13/UTILHELP?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/al1ster13/UTILHELP?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/al1ster13/UTILHELP?style=for-the-badge)
 
 </div>
 
@@ -170,7 +170,7 @@
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/al1ster1331/UTILHELP.git
+git clone https://github.com/al1ster13/UTILHELP.git
 cd UTILHELP
 
 # Установите зависимости
@@ -330,6 +330,6 @@ UTILHELP является агрегатором ссылок на официа�
 
 **⭐ Поставьте звезду, если проект вам понравился!**
 
-Made with ❤️ by [al1ster13](https://github.com/al1ster1331)
+Made with ❤️ by [al1ster13](https://github.com/al1ster13)
 
 </div>
